@@ -48,6 +48,7 @@
     <Compile Include="Exercise.cs" />
     <Compile Include="FileClassLecture.cs" />
     <Compile Include="liveCoding.cs" />
+    <Compile Include="LogicalQuestion.cs" />
     <Compile Include="Procedural.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

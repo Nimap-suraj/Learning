@@ -30,6 +30,43 @@ namespace C_Intermediate
             Func<int, int> func = x => x * x;
             Console.WriteLine("Square of number is "+func(10));
 
+            //Post p1 = new Post();
+            //p1.Title = "task1";
+            //p1.Description = "Today's task done";
+            //p1.UpVote();
+            //p1.UpVote();
+            //Console.WriteLine($"Current Vote: {p1.Vote} {p1.CreatedAt}");
+            //string str = "suraj";
+            //str += "+";
+            //str += "shah";
+            //Console.WriteLine(str);
+
+            // Case sensitive.
+            //int age = 10;
+            //int AGE = 10;
+
+        }
+        static void MissingNumber()
+        {
+            int[] arr = { 1, 2, 4, 5, 7, 8, 10 };
+            var list = new List<int>(arr);
+            // min
+            // max
+            for (int i = 1; i <= 10; i++)
+            {
+                if (!list.Contains(i))
+                {
+                    list.Add(i);
+                }
+                else
+                {
+                    list.Remove(i);
+                }
+            }
+            foreach (var item in list)
+            {
+                Console.Write(item + " ");
+            }
         }
         static int square(int numbers)
         {
