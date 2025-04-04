@@ -5,3 +5,10 @@ C:\Users\DELL\Desktop\nimap\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.csproj.Assem
 C:\Users\DELL\Desktop\nimap\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\nimap\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.exe
 C:\Users\DELL\Desktop\nimap\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.pdb
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.exe.config
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.exe
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.pdb
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.exe
+C:\Users\DELL\Desktop\NimapLearning\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.pdb

@@ -63,12 +63,14 @@ namespace AsyncAwaitDemo
     {
         static void Main(string[] args)
         {
-            //Async and Await
+            // how Async and Await works
             //Task2();
             //Task4();
             //Task1();
             //Task3();
-// Constructor Injection.
+
+            
+            // Constructor Injection.
             //IAccount CA = new CurrentAccount();
             //Account a = new Account(CA);
             //a.PrintDetails();
@@ -76,7 +78,9 @@ namespace AsyncAwaitDemo
             //IAccount SA = new SavingAccount();
             //Account a2 = new Account(SA);
             //a2.PrintDetails();
-// ProPerty Injection.
+
+
+            // ProPerty Injection.
             //Account sa = new Account();
             //sa.account = new SavingAccount();
             //sa.PrintDetails();
@@ -85,16 +89,36 @@ namespace AsyncAwaitDemo
             //ca.account = new CurrentAccount();
             //ca.PrintDetails();
 
-// Method Injection\
+            // Method Injection
             //Account sa = new Account();    
             //sa.PrintDetails(new SavingAccount());
 
             //Account ca = new Account();    
             //ca.PrintDetails(new CurrentAccount());
 
+
+            // How Thread Works 
+            Method();
+            Console.WriteLine("Main Thread");
+            Console.ReadLine();
             Console.ReadKey();
         }
+        public static async void Method()
+        {
+            await Task.Run(new Action(LongTask));
+            Console.WriteLine("New Thread");
+        }
 
+        public static void LongTask()
+        {
+            Console.WriteLine("LongTask started");
+            for (int count = 20; count > 0; count--)
+            {
+                Console.WriteLine(count);
+                Thread.Sleep(1000); // Sleep for 1 second
+            }
+            Console.WriteLine("LongTask completed");
+        }
         static async void Task1()
         {
             await Task.Run(() =>

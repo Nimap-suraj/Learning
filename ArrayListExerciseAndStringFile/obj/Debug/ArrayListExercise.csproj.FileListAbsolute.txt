@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\ArrayListExercise\bin\Debug\ArrayListExercise.exe.config
+C:\Users\DELL\source\repos\ArrayListExercise\bin\Debug\ArrayListExercise.exe
+C:\Users\DELL\source\repos\ArrayListExercise\bin\Debug\ArrayListExercise.pdb
+C:\Users\DELL\source\repos\ArrayListExercise\obj\Debug\ArrayListExercise.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\ArrayListExercise\obj\Debug\ArrayListExercise.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\ArrayListExercise\obj\Debug\ArrayListExercise.exe
+C:\Users\DELL\source\repos\ArrayListExercise\obj\Debug\ArrayListExercise.pdb
