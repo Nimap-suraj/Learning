@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\C#Intermediate\bin\Debug\C#Intermediate.exe.config
+C:\Users\DELL\source\repos\C#Intermediate\bin\Debug\C#Intermediate.exe
+C:\Users\DELL\source\repos\C#Intermediate\bin\Debug\C#Intermediate.pdb
+C:\Users\DELL\source\repos\C#Intermediate\obj\Debug\C#Intermediate.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\C#Intermediate\obj\Debug\C#Intermediate.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\C#Intermediate\obj\Debug\C#Intermediate.exe
+C:\Users\DELL\source\repos\C#Intermediate\obj\Debug\C#Intermediate.pdb
