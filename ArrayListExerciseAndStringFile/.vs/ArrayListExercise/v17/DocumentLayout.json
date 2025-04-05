@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\logicalquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:logicalquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\desktop\\nimaplearning\\arraylistexerciseandstringfile\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\desktop\\nimaplearning\\arraylistexerciseandstringfile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\desktop\\nimaplearning\\arraylistexerciseandstringfile\\logicalquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:logicalquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Exercise.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\Exercise.cs",
               "RelativeDocumentMoniker": "Exercise.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,18 +55,17 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA0wA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:47:40.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T23:47:40.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LogicalQuestion.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\LogicalQuestion.cs",
               "RelativeDocumentMoniker": "LogicalQuestion.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\LogicalQuestion.cs",
               "RelativeToolTip": "LogicalQuestion.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T23:47:09.774Z",
               "EditorCaption": ""

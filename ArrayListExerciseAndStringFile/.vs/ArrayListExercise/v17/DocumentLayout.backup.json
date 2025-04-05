@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\desktop\\nimaplearning\\arraylistexerciseandstringfile\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\directoryfilew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:directoryfilew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\fileclasslecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:fileclasslecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\livecoding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:livecoding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\procedural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:procedural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\source\\repos\\arraylistexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\desktop\\nimaplearning\\arraylistexerciseandstringfile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|c:\\users\\dell\\desktop\\nimaplearning\\arraylistexerciseandstringfile\\logicalquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF86E430-CE27-4CD6-B390-00F775BCCCEC}|ArrayListExercise.csproj|solutionrelative:logicalquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,93 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Date.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Date.cs",
-              "RelativeDocumentMoniker": "Date.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Date.cs",
-              "RelativeToolTip": "Date.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Exercise.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\Exercise.cs",
+              "RelativeDocumentMoniker": "Exercise.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\Exercise.cs",
+              "RelativeToolTip": "Exercise.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:36:08.426Z",
+              "WhenOpened": "2025-04-04T23:54:00.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Exercise.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Exercise.cs",
-              "RelativeDocumentMoniker": "Exercise.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Exercise.cs",
-              "RelativeToolTip": "Exercise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:35:57.272Z",
+              "WhenOpened": "2025-04-04T23:47:40.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DirectoryFIlew.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\DirectoryFIlew.cs",
-              "RelativeDocumentMoniker": "DirectoryFIlew.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\DirectoryFIlew.cs",
-              "RelativeToolTip": "DirectoryFIlew.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LogicalQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\LogicalQuestion.cs",
+              "RelativeDocumentMoniker": "LogicalQuestion.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\ArrayListExerciseAndStringFile\\LogicalQuestion.cs",
+              "RelativeToolTip": "LogicalQuestion.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:35:56.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileClassLecture.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\FileClassLecture.cs",
-              "RelativeDocumentMoniker": "FileClassLecture.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\FileClassLecture.cs",
-              "RelativeToolTip": "FileClassLecture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:35:53.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "liveCoding.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\liveCoding.cs",
-              "RelativeDocumentMoniker": "liveCoding.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\liveCoding.cs",
-              "RelativeToolTip": "liveCoding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:35:46.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Procedural.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Procedural.cs",
-              "RelativeDocumentMoniker": "Procedural.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Procedural.cs",
-              "RelativeToolTip": "Procedural.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:35:34.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ArrayListExercise\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAA0wCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T18:44:33.418Z",
+              "WhenOpened": "2025-04-04T23:47:09.774Z",
               "EditorCaption": ""
             }
           ]

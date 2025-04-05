@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\March26\bin\Debug\March26.exe.config
+C:\Users\DELL\source\repos\March26\bin\Debug\March26.exe
+C:\Users\DELL\source\repos\March26\bin\Debug\March26.pdb
+C:\Users\DELL\source\repos\March26\obj\Debug\March26.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\March26\obj\Debug\March26.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\March26\obj\Debug\March26.exe
+C:\Users\DELL\source\repos\March26\obj\Debug\March26.pdb
