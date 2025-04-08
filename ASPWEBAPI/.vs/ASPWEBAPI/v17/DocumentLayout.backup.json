@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\nimap\\ASPWEBAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C66B8DD-6724-4DF3-B348-4198B6837DAC}|ASPWEBAPI.csproj|c:\\users\\dell\\desktop\\nimap\\aspwebapi\\controllers\\fruitsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C66B8DD-6724-4DF3-B348-4198B6837DAC}|ASPWEBAPI.csproj|solutionrelative:controllers\\fruitsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C66B8DD-6724-4DF3-B348-4198B6837DAC}|ASPWEBAPI.csproj|c:\\users\\dell\\desktop\\nimap\\aspwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C66B8DD-6724-4DF3-B348-4198B6837DAC}|ASPWEBAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FruitsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\nimap\\ASPWEBAPI\\Controllers\\FruitsApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FruitsApiController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\nimap\\ASPWEBAPI\\Controllers\\FruitsApiController.cs*",
+              "RelativeToolTip": "Controllers\\FruitsApiController.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T21:11:01.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\nimap\\ASPWEBAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\nimap\\ASPWEBAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:27:55.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
