@@ -4,7 +4,7 @@ namespace ASPWebApiCRUD.Models
 {
     public class Users
     {
-        [Key]
+        [Key] // auto increment
         public int  Id { get; set; }
         public string Name { get; set; }
 

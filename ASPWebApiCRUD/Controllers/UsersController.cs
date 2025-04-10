@@ -33,9 +33,19 @@ namespace ASPWebApiCRUD.Controllers
         public string AddUser(Users user)
         {
             string response = string.Empty;
-            userContext.Users.Add(user);
-            userContext.SaveChanges();
-            return "User Added Successfully";
+
+            try
+            {
+                userContext.Users.Add(user);
+                userContext.SaveChanges();
+                response = "User Added Successfully";
+            }
+            catch (Exception ex)
+            {
+                response = "Error: " + ex.Message;
+            }
+
+            return response;
         }
 
         [HttpPut]

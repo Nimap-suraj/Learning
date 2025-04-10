@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPWebApiCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc9eaea2fe237d7d42a706e537a8332ee3d958bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c88d0ba190e8e048c5f3e73385e99ef40531346")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPWebApiCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPWebApiCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
