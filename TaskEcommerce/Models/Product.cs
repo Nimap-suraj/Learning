@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace TaskEcommerce.Models
 {
@@ -14,6 +15,7 @@ namespace TaskEcommerce.Models
 
         //[ForeignKey("CategoryId")]
         public required int CategoryId { get; set; }
-        public Category Category { get; set; } = null!;
+        [JsonIgnore]
+        public Category? Category { get; set; } 
     }
 }

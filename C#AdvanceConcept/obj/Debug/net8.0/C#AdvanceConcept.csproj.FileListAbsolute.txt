@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\bin\Debug\net8.0\C#AdvanceConcept.exe
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\bin\Debug\net8.0\C#AdvanceConcept.deps.json
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\bin\Debug\net8.0\C#AdvanceConcept.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\bin\Debug\net8.0\C#AdvanceConcept.dll
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\bin\Debug\net8.0\C#AdvanceConcept.pdb
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.dll
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\refint\C#AdvanceConcept.dll
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.pdb
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\C#AdvanceConcept.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\C#AdvanceConcept\obj\Debug\net8.0\ref\C#AdvanceConcept.dll

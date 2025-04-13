@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|c:\\users\\dell\\desktop\\nimaplearning\\customerproductapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|c:\\users\\dell\\desktop\\nimaplearning\\customerproductapi\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|solutionrelative:entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|c:\\users\\dell\\desktop\\nimaplearning\\customerproductapi\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|solutionrelative:datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|c:\\users\\dell\\desktop\\nimaplearning\\customerproductapi\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|c:\\users\\dell\\desktop\\nimaplearning\\customerproductapi\\entities\\customerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|solutionrelative:entities\\customerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|c:\\users\\dell\\desktop\\nimaplearning\\customerproductapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DD662C-AB26-4BDE-B130-87CFB3B9AAB0}|CustomerProductAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 376,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:53:40.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerProduct.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Entities\\CustomerProduct.cs",
+              "RelativeDocumentMoniker": "Entities\\CustomerProduct.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Entities\\CustomerProduct.cs",
+              "RelativeToolTip": "Entities\\CustomerProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:50:18.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\DataContext.cs",
+              "RelativeDocumentMoniker": "DataContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\DataContext.cs",
+              "RelativeToolTip": "DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:45:21.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Entities\\Customer.cs",
+              "RelativeToolTip": "Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:42:56.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:44:09.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CustomerProductAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:50:39.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 24,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

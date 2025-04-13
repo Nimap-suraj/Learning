@@ -22,6 +22,7 @@ namespace TaskEcommerce.Controllers
         {
             return await _context.categories.ToListAsync();
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Category>> GetById(int id)
         {

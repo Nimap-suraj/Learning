@@ -10,7 +10,22 @@ namespace TaskEcommerce.Context
         
         public DbSet<Category> categories { get; set; }
         public DbSet<Product> products { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
 
-        
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<Category>()
+            //    .HasMany(c => c.Products)
+            //    .WithOne(p => p.Category)
+            //    .HasForeignKey(p => p.CategoryId);
+            modelBuilder.Entity<Order>().HasQueryFilter(o => !o.User.isDeleted);
+            // In OnModelCreating()
+            modelBuilder.Entity<Order>().HasQueryFilter(o => !o.IsDeleted);
+            modelBuilder.Entity<User>().HasQueryFilter(u => !u.isDeleted);
+        }
+
     }
 }
