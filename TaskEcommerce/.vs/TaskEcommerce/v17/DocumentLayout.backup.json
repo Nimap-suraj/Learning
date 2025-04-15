@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413002135_update-Safe-Delete11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250413002135_update-Safe-Delete11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413001950_update-Safe-Delete1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250413001950_update-Safe-Delete1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413001633_update-Safe-Delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250413001633_update-Safe-Delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 376,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,120 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250413002135_update-Safe-Delete11.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413002135_update-Safe-Delete11.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250413002135_update-Safe-Delete11.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413002135_update-Safe-Delete11.cs",
-              "RelativeToolTip": "Migrations\\20250413002135_update-Safe-Delete11.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIBBwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:21:35.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\OrderItem.cs",
-              "RelativeToolTip": "Models\\OrderItem.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:21:09.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:21:07.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250413001950_update-Safe-Delete1.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413001950_update-Safe-Delete1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250413001950_update-Safe-Delete1.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413001950_update-Safe-Delete1.cs",
-              "RelativeToolTip": "Migrations\\20250413001950_update-Safe-Delete1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:19:50.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:19:13.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250413001633_update-Safe-Delete.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413001633_update-Safe-Delete.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250413001633_update-Safe-Delete.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Migrations\\20250413001633_update-Safe-Delete.cs",
-              "RelativeToolTip": "Migrations\\20250413001633_update-Safe-Delete.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:16:33.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Context\\DataContext.cs",
               "RelativeDocumentMoniker": "Context\\DataContext.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Context\\DataContext.cs",
               "RelativeToolTip": "Context\\DataContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwBkAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:10:52.157Z",
+              "WhenOpened": "2025-04-14T23:36:03.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvw8AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:09:07.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T23:35:49.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAADwvzkAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\DTO\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "DTO\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\DTO\\CategoryDto.cs",
+              "RelativeToolTip": "DTO\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:07:01.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T23:35:30.593Z"
             }
           ]
         },

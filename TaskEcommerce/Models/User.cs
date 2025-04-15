@@ -10,7 +10,7 @@ namespace TaskEcommerce.Models
         public  string Name { get; set; }
         public string? PhoneNumber { get; set; }
         public string? Address { get; set; }
-
+        [JsonIgnore]
         public bool isDeleted { get; set; } = false;
 
         [JsonIgnore]

@@ -1,12 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
-
-namespace TaskEcommerce.Models
+﻿namespace TaskEcommerce.DTO
 {
-    public class Product
+    public class ProductDto
     {
-        //[Key]
         public int ProductId { get; set; }
         public required string ProductName { get; set; }
         public required int ProductPrice { get; set; }
@@ -15,7 +10,6 @@ namespace TaskEcommerce.Models
 
         //[ForeignKey("CategoryId")]
         public required int CategoryId { get; set; }
-        //[JsonIgnore]
-        public Category? Category { get; set; } 
+
     }
 }
