@@ -44,7 +44,7 @@ namespace TaskEcommerce.Controllers
 
                 return Ok(response);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "An unexpected error occurred while fetching orders.");
             }
@@ -68,7 +68,7 @@ namespace TaskEcommerce.Controllers
                 var response = order.Adapt<OrderDto>();
                 return Ok(response);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "An unexpected error occurred while fetching the order.");
             }
@@ -93,7 +93,7 @@ namespace TaskEcommerce.Controllers
 
                 return Ok(orders);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "An unexpected error occurred while fetching orders for the user.");
             }
@@ -130,7 +130,7 @@ namespace TaskEcommerce.Controllers
                 // Step 6: Return the created order with its ID (CreatedAtAction creates a response with 201 status)
                 return CreatedAtAction(nameof(GetOrderById), new { id = order.OrderId }, order);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "An unexpected error occurred while creating the order.");
             }

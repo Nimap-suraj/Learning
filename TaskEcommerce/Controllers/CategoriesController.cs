@@ -1,11 +1,8 @@
 ﻿using Mapster;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using TaskEcommerce.Context;
 using TaskEcommerce.DTO;
 using TaskEcommerce.Models;
+using TaskEcommerce.Services.Interface;
 
 namespace TaskEcommerce.Controllers
 {
@@ -13,45 +10,31 @@ namespace TaskEcommerce.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        public readonly DataContext _context;
+        private readonly ICategoryServices _categoryServices;
 
-        public CategoriesController(DataContext context)
+        public CategoriesController(ICategoryServices categoryServices)
         {
-            _context = context;
+            _categoryServices = categoryServices;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> GetALLCategories(int CurrentPage = 1,int PageSize = 10)
+        public async Task<ActionResult<IEnumerable<CategoryDto>>> GetAllCategories(int CurrentPage = 1, int PageSize = 10)
         {
-            int TotalCategory = _context.categories.Count();
-            int TotalPages = (int)Math.Ceiling((decimal)TotalCategory / PageSize);
-
-            var TotalCategories = await _context.categories.Skip((CurrentPage - 1) * PageSize)
-                .Take(PageSize)
-                .ToListAsync();
-            return Ok(TotalCategories);
+            var categories = await _categoryServices.GetCategoriesAsync(CurrentPage, PageSize);
+            return Ok(categories);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetById(int id)
+        public async Task<ActionResult<CategoryDto>> GetById(int id)
         {
-            try
-            {
-                var category = await _context.categories.FindAsync(id);
-
-                if (category == null || category.Name == "string")
-                    return NotFound();
-                var response = category.Adapt<CategoryDto>();
-
-                return Ok(response);
-            }
-            catch(Exception)
-            {
-                return StatusCode(500, "Something Went Wrong!,Please Try Again Later!!!");
-            }
+            var category = await _categoryServices.GetCategoriesByIdAsync(id);
+            if (category == null)
+                return NotFound("Category not found.");
+            return Ok(category);
         }
+
         [HttpPost]
-        public async Task<ActionResult<Category>> AddCategory(Category category)
+        public async Task<ActionResult<CategoryDto>> AddCategory(Category category)
         {
             try
             {
@@ -61,10 +44,8 @@ namespace TaskEcommerce.Controllers
                 if (category.Name?.ToLower() == "string" || category.CategoryNumber?.ToLower() == "string")
                     return BadRequest("Please provide valid values for Name and Category Number.");
 
-                _context.categories.Add(category);
-                await _context.SaveChangesAsync();
-
-                return CreatedAtAction(nameof(GetById), new { id = category.CategoryId }, category);
+                var result = await _categoryServices.CreateCategoryAsync(category);
+                return CreatedAtAction(nameof(GetById), new { id = result.CategoryId }, result);
             }
             catch (Exception)
             {
@@ -72,60 +53,22 @@ namespace TaskEcommerce.Controllers
             }
         }
 
-
-        [HttpPut]
-        public async Task<ActionResult> UpdateCategory(int id,[FromBody]Category updated)
+        [HttpPut("{id}")]
+        public async Task<ActionResult<CategoryDto>> UpdateCategory(int id, [FromBody] Category updated)
         {
-            try
-            {
-
-                var category = await _context.categories.FindAsync(id);
-
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
-
-                // 2. Custom logic validation to avoid default/placeholder values
-                if (updated.Name?.ToLower() == "string" || updated.CategoryNumber?.ToLower() == "string")
-                {
-                    return BadRequest("Please provide valid values for Name and Category Number.");
-                }
-
-                if (category == null) 
-                    return BadRequest("Data Not Found!");
-
-                category.Name = updated.Name;
-                category.CategoryNumber = updated.CategoryNumber;
-                await _context.SaveChangesAsync();
-                return Ok("Update Done");
-            }
-            catch (Exception)
-            {
-                return StatusCode(500, "Something went wrong while adding the category.");
-            }
+            var result = await _categoryServices.UpdateCategoriesAsync(id, updated);
+            if (result == null)
+                return NotFound("Category not found.");
+            return Ok(result);
         }
-
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            try
-            {
-                var category = await _context.categories.FindAsync(id);
-                if (category == null)
-                    return NotFound();
-
-                _context.categories.Remove(category);
-                await _context.SaveChangesAsync();
-                return Ok("Data Deleted!");
-            }
-            catch (Exception)
-            {
-                return StatusCode(500, "Something went wrong while adding the category.");
-            }
+            var deleted = await _categoryServices.SafeDeleteCategory(id);
+            if (!deleted)
+                return NotFound("Category not found.");
+            return Ok("Category deleted successfully.");
         }
-
-
     }
 }
