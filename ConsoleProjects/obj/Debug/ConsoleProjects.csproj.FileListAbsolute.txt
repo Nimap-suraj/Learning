@@ -1,0 +1,7 @@
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\bin\Debug\ConsoleProjects.exe.config
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\bin\Debug\ConsoleProjects.exe
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\bin\Debug\ConsoleProjects.pdb
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\obj\Debug\ConsoleProjects.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\obj\Debug\ConsoleProjects.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\obj\Debug\ConsoleProjects.exe
+C:\Users\DELL\Desktop\NimapLearning\ConsoleProjects\obj\Debug\ConsoleProjects.pdb
