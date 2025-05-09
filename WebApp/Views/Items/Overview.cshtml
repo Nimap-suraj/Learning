@@ -1,0 +1,15 @@
+﻿@model WebApp.Models.Item
+@{
+	var message = "Hello Team";
+	var list = new List<string> { "List1","List2","List3"};
+}
+
+<h6>@message<p>Tommorow is Meeting for final Prject.</p></h6>
+<p>This is the Item @Model.Name	</p>
+
+<ul>
+	@foreach(var item in list)
+	{
+		<li>@item</li>
+	}
+</ul>

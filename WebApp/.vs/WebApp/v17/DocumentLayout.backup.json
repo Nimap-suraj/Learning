@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 376,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Items\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:58:33.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Items\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:45:25.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "Views\\Items\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:30:14.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Items\\Create.cshtml",
+              "RelativeToolTip": "Views\\Items\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:29:54.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAywEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T10:10:36.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 24,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
