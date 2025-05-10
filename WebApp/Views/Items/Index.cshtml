@@ -11,6 +11,9 @@
         <tr>
             <th>Name</th>
             <th>Price</th>
+            <th>Serial Number</th>
+            <th>Category</th>
+            <th>Clients</th>
         </tr>
     </thead>
 
@@ -20,6 +23,14 @@
             <tr>
                 <td>@item.Name</td>
                 <td>@item.Price.ToString("N2") $</td>
+                <td>@item.SerialNumber?.Name </td>
+                <td>@item.Category?.Name </td>
+                <td>
+                    @foreach(var client in item.ItemClients)
+                    {
+                                <span>[@client.Client.Name]</span>
+                    } 
+                </td>
                 <td> 
                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
                 </td>
