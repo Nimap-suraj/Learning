@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApp.Entities;
 using WebApp.Models;
 
 namespace WebApp.data
@@ -42,5 +43,6 @@ namespace WebApp.data
         public DbSet<Category> Categories { get; set; } 
         public DbSet<Client> Clients { get; set; } 
         public DbSet<ItemClient> ItemClients { get; set; } 
+        public DbSet<UserAccount> userAccounts { get; set; } 
     }
 }
