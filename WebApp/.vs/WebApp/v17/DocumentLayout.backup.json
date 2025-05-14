@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\account\\userspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\account\\userspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\account\\securepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\account\\securepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\entities\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:entities\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|c:\\users\\dell\\desktop\\nimaplearning\\webapp\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F749FBB-C5A8-48AD-93A4-8BBBF4CFBD01}|WebApp.csproj|solutionrelative:models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 248,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsersPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\UsersPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\UsersPage.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\UsersPage.cshtml",
+              "RelativeToolTip": "Views\\Account\\UsersPage.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T13:49:35.4Z",
+              "WhenOpened": "2025-05-13T05:48:09.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Entities\\UserAccount.cs",
+              "RelativeDocumentMoniker": "Entities\\UserAccount.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Entities\\UserAccount.cs",
+              "RelativeToolTip": "Entities\\UserAccount.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:44:52.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Models\\SignUpViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\SignUpViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Models\\SignUpViewModel.cs",
+              "RelativeToolTip": "Models\\SignUpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:44:48.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\Registration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\Registration.cshtml",
+              "RelativeToolTip": "Views\\Account\\Registration.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T05:35:09.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwEgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:35:17.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T05:35:10.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecurePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\SecurePage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SecurePage.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\WebApp\\Views\\Account\\SecurePage.cshtml",
+              "RelativeToolTip": "Views\\Account\\SecurePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T05:34:58Z",
               "EditorCaption": ""
             }
           ]

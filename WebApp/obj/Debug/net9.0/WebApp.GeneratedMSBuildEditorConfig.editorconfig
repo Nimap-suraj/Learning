@@ -28,20 +28,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/AccountController1/UsersPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudENvbnRyb2xsZXIxXFVzZXJzUGFnZS5jc2h0bWw=
+[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Accounts/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Account/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Accounts/Registration.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Account/SecurePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZWN1cmVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Accounts/SecurePage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcU2VjdXJlUGFnZS5jc2h0bWw=
+[C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Account/UsersPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2Vyc1BhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/NimapLearning/WebApp/Views/Home/Index.cshtml]
