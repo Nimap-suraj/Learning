@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|c:\\users\\dell\\desktop\\nimaplearning\\testcreate\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|solutionrelative:model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|c:\\users\\dell\\desktop\\nimaplearning\\testcreate\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|c:\\users\\dell\\desktop\\nimaplearning\\testcreate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|c:\\users\\dell\\desktop\\nimaplearning\\testcreate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|c:\\users\\dell\\desktop\\nimaplearning\\testcreate\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2BDA0-6E50-4E1C-9744-53664B736B10}|TestCreate.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 216,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAywBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:20:30.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T12:13:41.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:12:13.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Model\\AppDbContext.cs",
+              "RelativeToolTip": "Model\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:10:33.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Model\\Customer.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TestCreate\\Model\\Customer.cs",
+              "RelativeToolTip": "Model\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:09:42.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

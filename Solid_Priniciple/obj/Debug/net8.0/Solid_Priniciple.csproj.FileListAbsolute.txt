@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\bin\Debug\net8.0\Solid_Priniciple.exe
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\bin\Debug\net8.0\Solid_Priniciple.deps.json
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\bin\Debug\net8.0\Solid_Priniciple.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\bin\Debug\net8.0\Solid_Priniciple.dll
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\bin\Debug\net8.0\Solid_Priniciple.pdb
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.dll
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\refint\Solid_Priniciple.dll
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.pdb
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\Solid_Priniciple.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\Solid_Priniciple\obj\Debug\net8.0\ref\Solid_Priniciple.dll

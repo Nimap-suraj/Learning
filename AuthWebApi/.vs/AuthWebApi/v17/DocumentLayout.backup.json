@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\receptionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\receptionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\authwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:authwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 216,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T10:48:24.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:46:51.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:45:13.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthWebApi",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\AuthWebApi.csproj",
+              "RelativeDocumentMoniker": "AuthWebApi.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\AuthWebApi.csproj",
+              "RelativeToolTip": "AuthWebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T10:44:46.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Receptionist.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Receptionist.cs",
+              "RelativeDocumentMoniker": "Models\\Receptionist.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Receptionist.cs",
+              "RelativeToolTip": "Models\\Receptionist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:43:42.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:40:45.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:40:24.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Models\\Register.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Register.cs",
+              "RelativeToolTip": "Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:39:48.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:38:48.809Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

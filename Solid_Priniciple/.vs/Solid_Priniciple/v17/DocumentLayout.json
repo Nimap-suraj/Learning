@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A1EC19-5FAD-4167-BC57-12FB826488AD}|Solid_Priniciple.csproj|c:\\users\\dell\\desktop\\nimaplearning\\solid_priniciple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A1EC19-5FAD-4167-BC57-12FB826488AD}|Solid_Priniciple.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A1EC19-5FAD-4167-BC57-12FB826488AD}|Solid_Priniciple.csproj|c:\\users\\dell\\desktop\\nimaplearning\\solid_priniciple\\interface\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A1EC19-5FAD-4167-BC57-12FB826488AD}|Solid_Priniciple.csproj|solutionrelative:interface\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A1EC19-5FAD-4167-BC57-12FB826488AD}|Solid_Priniciple.csproj|c:\\users\\dell\\desktop\\nimaplearning\\solid_priniciple\\abstract\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A1EC19-5FAD-4167-BC57-12FB826488AD}|Solid_Priniciple.csproj|solutionrelative:abstract\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 216,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:24:42.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\abstract\\Employee.cs",
+              "RelativeDocumentMoniker": "abstract\\Employee.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\abstract\\Employee.cs",
+              "RelativeToolTip": "abstract\\Employee.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:22:17.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\Interface\\IEmployee.cs",
+              "RelativeDocumentMoniker": "Interface\\IEmployee.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Solid_Priniciple\\Interface\\IEmployee.cs",
+              "RelativeToolTip": "Interface\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:22:08.109Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
