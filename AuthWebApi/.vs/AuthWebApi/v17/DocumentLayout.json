@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4935C3F0-C6F8-42DB-88F6-315106B7A511}|AuthWebApi.csproj|c:\\users\\dell\\desktop\\nimaplearning\\authwebapi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 216,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:16:34.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthWebApi.csproj.Backup.tmp",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\AuthWebApi.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "AuthWebApi.csproj.Backup.tmp",
@@ -70,8 +83,7 @@
               "RelativeToolTip": "AuthWebApi.csproj.Backup.tmp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-16T13:07:44.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T13:07:44.679Z"
             },
             {
               "$type": "Document",
@@ -87,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -120,12 +132,11 @@
               "RelativeToolTip": "AuthWebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-16T10:44:46.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T10:44:46.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Receptionist.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Receptionist.cs",
               "RelativeDocumentMoniker": "Models\\Receptionist.cs",
@@ -133,20 +144,7 @@
               "RelativeToolTip": "Models\\Receptionist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:43:42.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Doctor.cs",
-              "RelativeDocumentMoniker": "Models\\Doctor.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Doctor.cs",
-              "RelativeToolTip": "Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:40:45.563Z"
+              "WhenOpened": "2025-05-16T10:43:42.206Z"
             },
             {
               "$type": "Document",
@@ -174,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AuthWebApi\\Models\\Login.cs",
               "RelativeDocumentMoniker": "Models\\Login.cs",
