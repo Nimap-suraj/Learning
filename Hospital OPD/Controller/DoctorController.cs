@@ -1,5 +1,6 @@
 ﻿using Hospital_OPD.Data;
 using Hospital_OPD.Model;
+using Hospital_OPD.Services.Implementation;
 using Hospital_OPD.Services.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +17,13 @@ namespace Hospital_OPD.Controller
         {
             _services = services;
         }
+        [HttpGet("GetDoctorScheduleWithNames")]
+        public async Task<IActionResult> GetDoctorScheduleWithNames([FromQuery] int doctorId, [FromQuery] DateTime date)
+        {
+            var result = await _services.GetDoctorScheduleWithNames(doctorId, date);
+            return Ok(result);
+        }
+
         [HttpPost("AddDoctor")] 
         public async Task<IActionResult> Add(Doctor doctor)
         {
@@ -38,7 +46,7 @@ namespace Hospital_OPD.Controller
         public async Task<IActionResult> Update(int id, Doctor doctor)
         {
             var success = await _services.UpdateDoctor(id, doctor);
-            return success ? Ok("Updated") : NotFound();
+            return  Ok("Updated");
         }
 
         [HttpDelete("{id}")]
@@ -46,6 +54,22 @@ namespace Hospital_OPD.Controller
         {
             var success = await _services.DeleteDoctor(id);
             return success ? Ok("Deleted") : NotFound();
+        }
+
+        [HttpPut("MarkLeave/{doctorId}")]
+        public async Task<IActionResult> MarkDoctorOnLeave(int doctorId, [FromQuery] bool IsOnLeave)
+        {
+            try
+            {
+                var result = await _services.MarkDoctorLeave(doctorId, IsOnLeave);
+                return Ok(result);  
+            }
+            catch (Exception ex)
+            {
+                
+                return StatusCode(500, $"Something went wrong: {ex.Message}");
+
+            }
         }
     }
 }

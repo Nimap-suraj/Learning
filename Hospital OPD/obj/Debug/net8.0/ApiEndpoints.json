@@ -1,5 +1,42 @@
 [
   {
+    "ContainingType": "Hospital_OPD.Controller.AppointmentController",
+    "Method": "BookAppointment",
+    "RelativePath": "api/Appointment/BookAppointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointment",
+        "Type": "Hospital_OPD.Model.Appointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD.Controller.AppointmentController",
+    "Method": "CancelAppointment",
+    "RelativePath": "api/Appointment/CancelAppointment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "doctorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Hospital_OPD.Controller.DepartmentController",
     "Method": "AddDepartment",
     "RelativePath": "api/Department/AddingDepartment",
@@ -139,6 +176,48 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD.Controller.DoctorController",
+    "Method": "GetDoctorScheduleWithNames",
+    "RelativePath": "api/Doctor/GetDoctorScheduleWithNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD.Controller.DoctorController",
+    "Method": "MarkDoctorOnLeave",
+    "RelativePath": "api/Doctor/MarkLeave/{doctorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IsOnLeave",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
