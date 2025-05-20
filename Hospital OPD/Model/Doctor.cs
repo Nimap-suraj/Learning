@@ -9,7 +9,7 @@ namespace Hospital_OPD.Model
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-
+        //user uid
         // Link to Department
         [ForeignKey("Department")]
         public int DepartmentId { get; set; }

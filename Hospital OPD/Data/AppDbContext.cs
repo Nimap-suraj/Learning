@@ -12,5 +12,7 @@ namespace Hospital_OPD.Data
         public DbSet<Doctor> Doctor { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
+        public DbSet<MedicalRecord> MedicalRecords { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

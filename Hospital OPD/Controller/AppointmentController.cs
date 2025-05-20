@@ -3,9 +3,10 @@ using Hospital_OPD.Services.Implementation;
 using Hospital_OPD.Services.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authorization;
 namespace Hospital_OPD.Controller
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AppointmentController : ControllerBase
@@ -15,6 +16,8 @@ namespace Hospital_OPD.Controller
         {
             _services = services;
         }
+
+        [Authorize(Roles = "receptionist")]
         [HttpPost("BookAppointment")]
         public async Task<IActionResult> BookAppointment([FromBody]Appointment appointment)
         {
@@ -37,6 +40,7 @@ namespace Hospital_OPD.Controller
                 return StatusCode(500, $"Something went wrong: {ex.Message}");
             }
         }
+        [Authorize(Roles = "Receptionist")]
         [HttpDelete("CancelAppointment")]
         public async Task<IActionResult> CancelAppointment([FromQuery] int patientId, [FromQuery] int doctorId)
         {

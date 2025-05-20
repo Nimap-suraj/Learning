@@ -255,3 +255,5 @@ C:\Users\DELL\Desktop\NimapLearning\Hospital OPD\obj\Debug\net8.0\refint\Hospita
 C:\Users\DELL\Desktop\NimapLearning\Hospital OPD\obj\Debug\net8.0\Hospital OPD.pdb
 C:\Users\DELL\Desktop\NimapLearning\Hospital OPD\obj\Debug\net8.0\Hospital OPD.genruntimeconfig.cache
 C:\Users\DELL\Desktop\NimapLearning\Hospital OPD\obj\Debug\net8.0\ref\Hospital OPD.dll
+C:\Users\DELL\Desktop\NimapLearning\Hospital OPD\bin\Debug\net8.0\libman.json
+C:\Users\DELL\Desktop\NimapLearning\Hospital OPD\bin\Debug\net8.0\BCrypt.Net-Next.dll
