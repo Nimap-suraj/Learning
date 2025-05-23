@@ -30,8 +30,13 @@ builder.Services.AddScoped<IDoctorServices, DoctorServices>();
 builder.Services.AddScoped<IAppointmentServices, AppointmentService>();
 builder.Services.AddScoped<IMedicalRecord, MedicalService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IReportService, AppointmentService>();
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 
 // JWT Authentication configuration
+
+
 var jwtKey = builder.Configuration["JwtSettings:Key"];
 var jwtIssuer = builder.Configuration["JwtSettings:Issuer"];
 var jwtAudience = builder.Configuration["JwtSettings:Audience"];
@@ -89,6 +94,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+app.UseMiddleware<GlobalExceptionMiddleware>();
+
 
 // Configure middleware pipeline
 if (app.Environment.IsDevelopment())

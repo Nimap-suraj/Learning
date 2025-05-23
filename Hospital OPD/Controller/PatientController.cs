@@ -1,5 +1,6 @@
 ﻿using Hospital_OPD.Model;
 using Hospital_OPD.Services.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,7 @@ namespace Hospital_OPD.Controller
             _services = services;
         }
 
-
+        [Authorize(Roles ="receptionist")]
         [HttpPost("Register")]
         public async Task<IActionResult> AddPatient(Patient patient)
         {
@@ -39,12 +40,17 @@ namespace Hospital_OPD.Controller
                 return StatusCode(500, "Something went wrong while adding the patient.");
             }
         }
+
+        [Authorize(Roles = "receptionist")]
         [HttpGet("Search")]
         public async Task<IActionResult> SearchPatient(string query)
         {
             var results = await _services.SearchPatient(query);
             return Ok(results);
         }
+
+
+        [Authorize(Roles = "receptionist")]
         [HttpGet("GetAllPatients")]
         public async Task<IActionResult> GetAllPatients()
         {

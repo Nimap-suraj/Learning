@@ -1,4 +1,5 @@
-﻿using Hospital_OPD.Model;
+﻿using Hospital_OPD.DTO;
+using Hospital_OPD.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hospital_OPD.Data
@@ -14,5 +15,10 @@ namespace Hospital_OPD.Data
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<MedicalRecord> MedicalRecords { get; set; }
         public DbSet<User> Users { get; set; }
+        //public DbSet<DailyAppointmentReportDto> DailyAppointments { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DailyAppointmentReportDto>().HasNoKey();
+        }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\bin\Debug\net8.0\Dependency Injection.exe
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\bin\Debug\net8.0\Dependency Injection.deps.json
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\bin\Debug\net8.0\Dependency Injection.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\bin\Debug\net8.0\Dependency Injection.dll
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\bin\Debug\net8.0\Dependency Injection.pdb
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.dll
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\refint\Dependency Injection.dll
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.pdb
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\Dependency Injection.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\Dependency Injection\obj\Debug\net8.0\ref\Dependency Injection.dll

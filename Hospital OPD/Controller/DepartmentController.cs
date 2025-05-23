@@ -1,6 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using Hospital_OPD.Model;
 using Hospital_OPD.Services.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,7 @@ namespace Hospital_OPD.Controller
         {
             _services = services;
         }
+        [Authorize(Roles = "admin")]
         [HttpPost("AddingDepartment")]
         public async Task<IActionResult> AddDepartment(Department department)
         {
@@ -27,6 +29,7 @@ namespace Hospital_OPD.Controller
                     return BadRequest("DepartName should not be String");
                 var result = await _services.CreateDepartment(department);
                 return Ok("Department added successfully");
+                //return CreatedAtAction 201
             }
             catch (Exception)
             {
@@ -35,6 +38,7 @@ namespace Hospital_OPD.Controller
             }
 
         }
+        [Authorize(Roles = "admin")]
         [HttpPut("UpdateDepartment")]
         public async Task<IActionResult> Update(int id,Department department)
         {
@@ -53,7 +57,7 @@ namespace Hospital_OPD.Controller
                 return StatusCode(500, "Something gone wrong!! while adding");
             }
         }
-
+        [Authorize(Roles = "admin,receptionist")]
         [HttpGet("GetAllDepartment")]
         public async Task<IActionResult> getALL()
         {
@@ -61,6 +65,7 @@ namespace Hospital_OPD.Controller
             return Ok(results);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpDelete("DeleteDepartment")]
         public  async Task<IActionResult> DeleteDepartment(int id)
         {

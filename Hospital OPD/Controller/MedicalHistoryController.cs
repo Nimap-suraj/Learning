@@ -1,5 +1,6 @@
 ﻿using Hospital_OPD.Model;
 using Hospital_OPD.Services.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,7 @@ namespace Hospital_OPD.Controller
             _service = service;
 
         }
+        [Authorize(Roles = "receptionist")]
         [HttpPost("AddMedicalRecord")]
         public async Task<IActionResult> CreateMedicalRecord(MedicalRecord history)
         {
@@ -22,6 +24,7 @@ namespace Hospital_OPD.Controller
             return Ok(new { status = true, message = result });
           
         }
+        [Authorize(Roles = "receptionist")]
         [HttpGet("patient/{patientId}")]
         public async Task<IActionResult> GetHistory(int patientId)
         {

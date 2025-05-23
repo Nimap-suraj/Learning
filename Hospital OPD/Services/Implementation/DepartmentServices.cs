@@ -1,4 +1,5 @@
-﻿using Hospital_OPD.Data;
+﻿using Azure.Core;
+using Hospital_OPD.Data;
 using Hospital_OPD.Model;
 using Hospital_OPD.Services.Interface;
 using Microsoft.AspNetCore.Identity;
@@ -9,14 +10,28 @@ namespace Hospital_OPD.Services.Implementation
     public class DepartmentServices : IDepartmentServices
     {
         private readonly AppDbContext _context;
-        public DepartmentServices(AppDbContext context)
+        private readonly ILogger<AppointmentService> _logger;
+
+        public DepartmentServices(AppDbContext context, ILogger<AppointmentService> logger)
         {
             _context = context;
+            _logger = logger;
         }
         public async Task<Department> CreateDepartment(Department department)
         {
-           var res =   await  _context.Departments.AddAsync(department);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.Departments.AddAsync(department);
+                _logger.LogInformation("Department '{DepartmentName}' added successfully at {Time}", department.Name, DateTime.UtcNow);
+
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to create department '{DepartmentName}' at {Time}", department.Name, DateTime.UtcNow);
+                throw; // This will be handled by global exception middleware
+            }
+
             return department;
         }
 
