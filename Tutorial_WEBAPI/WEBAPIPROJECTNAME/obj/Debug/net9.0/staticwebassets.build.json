@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zD9F4QlUAcocfywkrUl+txRnC2Xh0V6hsd7h0XX5Pow=",
+  "Source": "WEBAPIPROJECTNAME",
+  "BasePath": "_content/WEBAPIPROJECTNAME",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

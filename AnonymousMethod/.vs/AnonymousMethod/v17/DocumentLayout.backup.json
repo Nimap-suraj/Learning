@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|c:\\users\\dell\\desktop\\nimaplearning\\anonymousmethod\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|c:\\users\\dell\\desktop\\nimaplearning\\anonymousmethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|c:\\users\\dell\\desktop\\nimaplearning\\anonymousmethod\\anonymous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|solutionrelative:anonymous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|c:\\users\\dell\\desktop\\nimaplearning\\anonymousmethod\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|c:\\users\\dell\\desktop\\nimaplearning\\anonymousmethod\\anonymousmethod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41DFAD21-3E00-47C1-B7D6-329795532D20}|AnonymousMethod.csproj|solutionrelative:anonymousmethod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 50,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T10:45:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnonymousMethod",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\AnonymousMethod.csproj",
+              "RelativeDocumentMoniker": "AnonymousMethod.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\AnonymousMethod.csproj",
+              "RelativeToolTip": "AnonymousMethod.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T09:50:56.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:57:09.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Anonymous.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Anonymous.cs",
+              "RelativeDocumentMoniker": "Anonymous.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Anonymous.cs",
+              "RelativeToolTip": "Anonymous.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:51:10.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:50:49.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

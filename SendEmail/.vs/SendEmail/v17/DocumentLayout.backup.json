@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|c:\\users\\dell\\desktop\\nimaplearning\\sendemail\\service\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|solutionrelative:service\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|c:\\users\\dell\\desktop\\nimaplearning\\sendemail\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|solutionrelative:mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|c:\\users\\dell\\desktop\\nimaplearning\\sendemail\\service\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|solutionrelative:service\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|c:\\users\\dell\\desktop\\nimaplearning\\sendemail\\model\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|solutionrelative:model\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|c:\\users\\dell\\desktop\\nimaplearning\\sendemail\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|c:\\users\\dell\\desktop\\nimaplearning\\sendemail\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94F39E58-63B9-415C-8476-523737B2C525}|SendEmail.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 50,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Model\\MailRequest.cs",
+              "RelativeDocumentMoniker": "Model\\MailRequest.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Model\\MailRequest.cs",
+              "RelativeToolTip": "Model\\MailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:31:21.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:31:16.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-24T10:19:56.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\MailSettings.cs",
+              "RelativeDocumentMoniker": "MailSettings.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\MailSettings.cs",
+              "RelativeToolTip": "MailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:14:22.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MailService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Service\\MailService.cs",
+              "RelativeDocumentMoniker": "Service\\MailService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Service\\MailService.cs*",
+              "RelativeToolTip": "Service\\MailService.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:13:41.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMailService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Service\\IMailService.cs",
+              "RelativeDocumentMoniker": "Service\\IMailService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\SendEmail\\Service\\IMailService.cs",
+              "RelativeToolTip": "Service\\IMailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:12:44.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
