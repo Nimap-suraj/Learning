@@ -15,28 +15,29 @@ namespace AnonymousMethod
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.Use(async (context, next) =>
-            {
-                await context.Response.WriteAsync("hello from Use Middleware 1-1 \n");
-                await next();
-                await context.Response.WriteAsync("hello from Use Middleware 1-2 \n");
-            });
-            app.Map("/suraj", Customcode);
-            app.Use(async (context, next) =>
-            {
-                await context.Response.WriteAsync("hello from Use Middleware 2-1 \n");
-                await next();
-                await context.Response.WriteAsync("hello from Use Middleware 2-2 \n");
-            });
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("hello from Use Middleware 1-1 \n");
+            //    await next();
+            //    await context.Response.WriteAsync("hello from Use Middleware 1-2 \n");
+            //});
+            //app.Map("/suraj", Customcode);
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("hello from Use Middleware 2-1 \n");
+            //    await next();
+            //    await context.Response.WriteAsync("hello from Use Middleware 2-2 \n");
+            //});
 
-            app.Use(async (context, next) =>
-            {
-                await context.Response.WriteAsync("Request Complete\n");
-                await next(); // Important!
-            });
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Request Complete\n");
+            //    await next(); // Important!
+            //});
 
-            app.UseRouting();
+            app.UseRouting(); //  routing is enabled.
 
+            // MAP RESOURCES
             app.UseEndpoints(endPoints =>
             {
                 endPoints.MapControllers(); 

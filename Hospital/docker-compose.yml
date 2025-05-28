@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "YourStrong@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+
+  hospital-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hospital-container
+    depends_on:
+      - sqlserver
+    ports:
+      - "8080:80"
+    environment:
+      - ConnectionStrings__db_connection=Server=sqlserver;Database=HospitalSystem;User=sa;Password=YourStrong@123;TrustServerCertificate=True;Encrypt=False;

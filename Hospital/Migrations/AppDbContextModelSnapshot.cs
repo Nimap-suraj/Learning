@@ -24,15 +24,8 @@ namespace Hospital_OPD.Migrations
 
             modelBuilder.Entity("Hospital_OPD.DTO.DailyAppointmentReportDto", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("AppointmentCount")
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AppointmentCount")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Department")
                         .IsRequired()
@@ -42,9 +35,7 @@ namespace Hospital_OPD.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("DailyAppointments");
+                    b.ToTable("DailyAppointmentReportDto");
                 });
 
             modelBuilder.Entity("Hospital_OPD.Model.Appointment", b =>

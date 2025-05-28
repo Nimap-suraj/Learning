@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\DSA\bin\Debug\net8.0\DSA.exe
+C:\Users\DELL\Desktop\NimapLearning\DSA\bin\Debug\net8.0\DSA.deps.json
+C:\Users\DELL\Desktop\NimapLearning\DSA\bin\Debug\net8.0\DSA.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\DSA\bin\Debug\net8.0\DSA.dll
+C:\Users\DELL\Desktop\NimapLearning\DSA\bin\Debug\net8.0\DSA.pdb
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.dll
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\refint\DSA.dll
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.pdb
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\DSA.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\DSA\obj\Debug\net8.0\ref\DSA.dll

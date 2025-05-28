@@ -16,7 +16,6 @@ namespace Hospital_OPD.Controller
             _services = services;
         }
 
-        [Authorize(Roles ="receptionist")]
         [HttpPost("Register")]
         public async Task<IActionResult> AddPatient(Patient patient)
         {
@@ -41,7 +40,6 @@ namespace Hospital_OPD.Controller
             }
         }
 
-        [Authorize(Roles = "receptionist")]
         [HttpGet("Search")]
         public async Task<IActionResult> SearchPatient(string query)
         {
@@ -50,7 +48,6 @@ namespace Hospital_OPD.Controller
         }
 
 
-        [Authorize(Roles = "receptionist")]
         [HttpGet("GetAllPatients")]
         public async Task<IActionResult> GetAllPatients()
         {

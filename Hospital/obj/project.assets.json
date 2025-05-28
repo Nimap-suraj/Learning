@@ -7725,9 +7725,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Hospital OPD.csproj",
-      "projectName": "Hospital OPD",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Hospital OPD.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\HospitalOPD.csproj",
+      "projectName": "HospitalOPD",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\HospitalOPD.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "I4GSr04Q1qDCA5njKLJH1VknCT+5HIL0/QTg6By8eVw=",
-  "Source": "Hospital OPD",
-  "BasePath": "_content/Hospital OPD",
+  "Hash": "2F1/Poolp5CzdOuIcSWXj8B5HBGxzjsO6PtntyQYiYo=",
+  "Source": "HospitalOPD",
+  "BasePath": "_content/HospitalOPD",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
