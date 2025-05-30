@@ -20,6 +20,48 @@
     ]
   },
   {
+    "ContainingType": "AnonymousMethod.Controllers.AnimalController",
+    "Method": "AddAnimal",
+    "RelativePath": "api/Animal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animal",
+        "Type": "AnonymousMethod.Model.AnimalModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.AnimalController",
+    "Method": "GetAnimalByID",
+    "RelativePath": "api/Animal/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.AnimalController",
+    "Method": "GetData",
+    "RelativePath": "api/Animal/test1",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AnonymousMethod.Controllers.BooksController",
     "Method": "getId",
     "RelativePath": "api/Books/{id}",
@@ -96,6 +138,150 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ConsoleToWebAPI.Controllers.CountriesController",
+    "Method": "GetData",
+    "RelativePath": "api/Countries/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.EmployeeController",
+    "Method": "GetEmployees",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.EmployeeController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/Employee/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.EmployeeController",
+    "Method": "GetEmployeeBasicData",
+    "RelativePath": "api/Employee/{id}/basic",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnonymousMethod.Model.EmployeeModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.AnimalController",
+    "Method": "GetAnimal",
+    "RelativePath": "api/GetAnimal",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "ALL"
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.EmployeeController",
+    "Method": "GetEmployeeData",
+    "RelativePath": "api/GetEmployeeData",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AnonymousMethod.Model.EmployeeModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.EmployeeController",
+    "Method": "getList",
+    "RelativePath": "api/getList",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AnonymousMethod.Model.EmployeeModel, ConsoleToWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnonymousMethod.Controllers.AnimalController",
+    "Method": "GetAnimalTest",
+    "RelativePath": "test",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AnonymousMethod.Controllers.TestController",

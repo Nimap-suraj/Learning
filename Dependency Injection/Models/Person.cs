@@ -10,7 +10,7 @@ namespace Dependency_Injection.Models
     {
         public Home _home;
         public IEducational _school;
-     
+        //private IEmployeeService _Iemppere;
         public IEducational School
         {
             set
@@ -18,8 +18,7 @@ namespace Dependency_Injection.Models
                 _school = value;  // yaha huaa mien
             }
         }
-
-        public Person(Home home)
+        public Person(Home home) 
         {
             _home = home;
             //_school = new School();  uppar check kar woh property injection ho raa hain use
@@ -35,6 +34,7 @@ namespace Dependency_Injection.Models
                 _school.Teach(this);
             }
         }
+        //method
         public void GetTreatment(Hospital hospital)
         {
             hospital.Cure(this);

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\AnonymousMethod.csproj",
-      "projectName": "AnonymousMethod",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\AnonymousMethod.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\ConsoleToWebAPI.csproj",
+      "projectName": "ConsoleToWebAPI",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\ConsoleToWebAPI.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\AnonymousMethod\\obj\\",
       "projectStyle": "PackageReference",

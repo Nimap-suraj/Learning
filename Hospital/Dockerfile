@@ -1,20 +1,25 @@
-# Use the official .NET SDK image to build the app
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
-
-# Copy and restore as separate layers for better caching
-COPY ["HospitalOPD.csproj", "./"]
-RUN dotnet restore "./HospitalOPD.csproj"
-
-# Copy everything else and build
-COPY . .
-RUN dotnet publish "HospitalOPD.csproj" -c Release -o /app/publish
-
-# Use a runtime image for a smaller final image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-COPY --from=build /app/publish .
+EXPOSE 8080
 
-# Expose the port your API listens on (adjust if needed)
-EXPOSE 80
+
+# This stage is used to build the service project
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["HospitalOPD.csproj", "."]
+RUN dotnet restore "./HospitalOPD.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "./HospitalOPD.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# This stage is used to publish the service project to be copied to the final stage
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./HospitalOPD.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "HospitalOPD.dll"]

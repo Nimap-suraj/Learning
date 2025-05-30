@@ -1,0 +1,197 @@
+-- TO create a database
+
+create database sample_db;
+
+-- TO Create a Table
+
+CREATE TABLE Books(
+bookId int primary key,
+Title Varchar(50),
+PublishedYear int
+);
+
+-- To add a coulumn
+
+ALTER TABLE BOOKS
+ADD author varchar(50)
+
+-- TO DROP A COLUMN
+
+ALTER TABLE BOOKS
+DROP COLUMN author
+
+-- TO ADD NOT NULL CONSTRAINTS
+ALTER TABLE BOOKS
+ADD author varchar(50) NOT NULL
+
+-- TO CHANGE THE DATATYPE
+ALTER TABLE BOOKS
+ALTER COLUMN author INT NOT NULL
+
+-- Convert back into previous varchar
+ALTER TABLE BOOKS
+ALTER COLUMN author VARCHAR(50) NOT NULL
+
+-- Insert Into Books 
+INSERT INTO Books(bookId,Title,PublishedYear,author)
+values(1,'java Programming For Beginner',2021,'james Gosling');
+
+-- Insert into Books Mukltiple.x
+INSERT INTO Books
+Values
+(2,'SQL',2022,'huess benn'),
+(3,'java',2021,'hekue heno');
+
+
+select * from Books;
+
+ALTER TABLE Books
+ADD Price int 
+
+--ALTER TABLE Books 
+--DROP COLUMN price;
+
+select *from Books
+
+select distinct publishedYear from Books;
+SELECT COUNT(bookId) as Length from Books;
+SELECT MAX(Price) as MaxValue from Books;
+SELECT AVG(Price) as AverageValue from Books;
+
+
+
+CREATE TABLE Students
+(
+	id int Primary key,
+	FirstName varchar(50),
+	LastName varchar(50),
+	Age int,
+	Class varchar(20)
+);
+INSERT INTO Students
+Values
+(1,'Suraj','shah',22,'FinalYear'),
+(2,'Rajat','Dalal',24,'FinalYear'),
+(3,'Mahesh','Nakka',22,'ThirdYear'),
+(4,'Om','Sambahr',22,'SecondYear'),
+(5,'Akshya','Dhumal',21,'FirstYear');
+select * from Students;
+
+
+/*
+	 %		Represents Zero or More Characters .✔
+	 _		Represnts a Single Character. ✔
+	 []		Represnts any single character within the brackets.✔
+	 ^		Represnts any Character not in the Bracket.✔
+	 -		Represents a Range of Characters.✔
+*/ 
+
+select * from Students;
+
+select * from Students where FirstName Like 'S%j';
+select * from Students where FirstName Like '_m';
+
+CREATE TABLE Employee (
+    id INT PRIMARY KEY,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    Email VARCHAR(100) NOT NULL UNIQUE,
+    Salary varchar(100) NOT NULL
+);
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (1,'Charlotte', 'Thompson', '1991-10-05', 'charlotte.thompson@example.com', '57000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (2,'Daniel', 'White', '1983-11-10', 'daniel.white@example.com', '72000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (3,'Amelia', 'Harris', '1994-12-15', 'amelia.harris@example.com', '53000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (4,'Matthew', 'Martin', '1986-01-20', 'matthew.martin@example.com', '60000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (5,'Ella', 'Clark', '1992-02-25', 'ella.clark@example.com', '58000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (6,'James', 'Lewis', '1981-03-30', 'james.lewis@example.com', '75000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (7,'Grace', 'Robinson', '1993-04-05', 'grace.robinson@example.com', '62000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (8,'Lucas', 'Walker', '1989-05-10', 'lucas.walker@example.com', '68000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (9,'Chloe', 'Hall', '1990-06-15', 'chloe.hall@example.com', '54000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (10,'Henry', 'Young', '1984-07-20', 'henry.young@example.com', '72000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (11,'Sofia', 'Allen', '1995-08-25', 'sofia.allen@example.com', '59000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (12,'Jack', 'King', '1987-09-30', 'jack.king@example.com', '65000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (13,'Lily', 'Wright', '1991-10-05', 'lily.wright@example.com', '57000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (14,'Owen', 'Scott', '1983-11-10', 'owen.scott@example.com', '72000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (15,'Zoe', 'Torres', '1994-12-15', 'zoe.torres@example.com', '53000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (16,'Ryan', 'Nguyen', '1986-01-20', 'ryan.nguyen@example.com', '60000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (17,'Nora', 'Hill', '1992-02-25', 'nora.hill@example.com', '58000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (18,'Isaac', 'Flores', '1981-03-30', 'isaac.flores@example.com', '75000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (19,'Maya', 'Green', '1993-04-05', 'maya.green@example.com', '62000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (20,'Elijah', 'Adams', '1989-05-10', 'elijah.adams@example.com', '68000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (21,'Avery', 'Baker', '1990-06-15', 'avery.baker@example.com', '54000');
+INSERT INTO Employee (id,firstname, lastname, DateOfBirth, Email, Salary) VALUES (22,'Sebastian', 'Gonzalez', '1984-07-20', 'sebastian.gonzalez@example.com', '72000');
+
+
+-- select * from Employee;
+-- update Employee
+-- SET firstname = 'suraj shah'
+-- where id = 10
+
+select * from Employee;
+
+-- delete from Employee where id >= 20;
+
+
+
+CREATE TABLE STUDENTSTABLE
+(
+	STUDENTID INT PRIMARY KEY IDENTITY(1,1),
+	[NAME] VARCHAR(20) UNIQUE,
+	AGE INT CHECK(AGE >= 10 AND AGE <= 25),
+	CLASS VARCHAR(255) DEFAULT('un-Assigned')
+);
+
+CREATE TABLE STUDENTS
+(
+	STUDENTID INT IDENTITY(1,1),
+	[NAME] VARCHAR(20) ,
+	AGE INT ,
+	CLASS VARCHAR(255) DEFAULT('un-Assigned'),
+	CONSTRAINT STD_ID PRIMARY KEY(STUDENTID),
+	CONSTRAINT UNQ_NAME UNIQUE([NAME]),
+	CONSTRAINT CHQ_AGE CHECK(AGE >= 10 AND AGE <= 25)
+);
+
+-- TO  REMOVE CONSTRAINTS
+--		alter table students
+--		drop constraint STD_ID
+
+-- old syntax
+-- ALTER TABLE STUDENTS
+-- ALTER COLUMN CLASS DROP DEFAULT 
+
+
+
+CREATE TABLE Users
+(
+	UserId INT PRIMARY KEY,
+	Username varchar(50),
+	UserPassword varchar(50),
+	Gender char(1),
+	Email varchar(50)
+);
+-- on delete cascade
+create TABLE Blogs(
+	BlogId int primary key,
+	UserId int Foreign key references Users(UserId) ,
+	Title varchar(50),
+	Content varchar(512)
+);
+INSERT INTO Users (UserId, Username, UserPassword, Gender, Email) VALUES
+(1, 'john_doe', 'password123', 'M', 'john@example.com'),
+(2, 'jane_smith', 'securepass', 'F', 'jane@example.com'),
+(3, 'alice_jones', 'mypassword', 'F', 'alice@example.com');
+
+INSERT INTO Blogs (BlogId, UserId, Title, Content) VALUES
+(1, 1, 'My First Blog', 'This is the content of my first blog.'),
+(2, 1, 'Another Day', 'Today was a great day!'),
+(3, 2, 'Travel Adventures', 'I just got back from a wonderful trip.'),
+(4, 3, 'Cooking Tips', 'Here are some tips for cooking delicious meals.');
+
+select * from Users;
+select * from Blogs;
+-- it gives me error bz parent can't delete  to do this we need to do add on delete CASCADE
+-- delete from Users where UserId = 1;l
+
+

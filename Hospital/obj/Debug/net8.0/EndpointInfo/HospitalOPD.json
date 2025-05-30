@@ -3,10 +3,6 @@
   "info": {
     "title": "Hospital_OPD API",
     "description": "API documentation for the Hospital Outpatient Management System",
-    "contact": {
-      "name": "Support",
-      "email": "support@hospitalopd.com"
-    },
     "version": "v1"
   },
   "paths": {
@@ -478,18 +474,6 @@
         }
       }
     },
-    "/health": {
-      "get": {
-        "tags": [
-          "HospitalOPD"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
     "/api/MedicalHistory/AddMedicalRecord": {
       "post": {
         "tags": [
@@ -795,10 +779,10 @@
     },
     "securitySchemes": {
       "Bearer": {
-        "type": "http",
+        "type": "apiKey",
         "description": "JWT Authorization header using the Bearer scheme. Example: 'Bearer {token}'",
-        "scheme": "bearer",
-        "bearerFormat": "JWT"
+        "name": "Authorization",
+        "in": "header"
       }
     }
   },
