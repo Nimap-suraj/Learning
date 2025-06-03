@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\services\\implementaion\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:services\\implementaion\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\services\\interface\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:services\\interface\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|c:\\users\\dell\\desktop\\nimaplearning\\taskecommerce\\services\\implementaion\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67097FE3-F6B1-4A32-BC56-7BCF20436C71}|TaskEcommerce.csproj|solutionrelative:services\\implementaion\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 376,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
@@ -55,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -63,12 +71,11 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T11:05:27.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T11:05:27.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -76,12 +83,11 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T11:04:00.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T11:04:00.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ICategoryServices.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Services\\Interface\\ICategoryServices.cs",
               "RelativeDocumentMoniker": "Services\\Interface\\ICategoryServices.cs",
@@ -89,26 +95,17 @@
               "RelativeToolTip": "Services\\Interface\\ICategoryServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:59:07.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-05-17T08:59:07.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CategoryServices.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Services\\Implementaion\\CategoryServices.cs",
               "RelativeDocumentMoniker": "Services\\Implementaion\\CategoryServices.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Services\\Implementaion\\CategoryServices.cs",
               "RelativeToolTip": "Services\\Implementaion\\CategoryServices.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAkwFYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T08:59:11.773Z",
               "EditorCaption": ""
@@ -121,14 +118,14 @@
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwEUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T08:58:56.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\TaskEcommerce\\DTO\\CategoryDto.cs",
               "RelativeDocumentMoniker": "DTO\\CategoryDto.cs",
@@ -136,8 +133,7 @@
               "RelativeToolTip": "DTO\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:58:52.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T08:58:52.947Z"
             }
           ]
         }

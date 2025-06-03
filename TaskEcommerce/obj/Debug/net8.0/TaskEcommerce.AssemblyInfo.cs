@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskEcommerce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46cff87e4e8a7a57bb1daf64d853ce14778381f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5b915d534a81f66564e85f4bbd4f34a7a580558")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskEcommerce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskEcommerce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

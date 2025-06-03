@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
-    "",
     "\\Services",
-    "\\Services\\Implementation"
+    "\\Services\\Implementation",
+    "\\Services\\Interface"
   ],
-  "SelectedNode": "\\Services\\Implementation\\AppointmentService.cs",
   "PreviewInSolutionExplorer": false
 }
