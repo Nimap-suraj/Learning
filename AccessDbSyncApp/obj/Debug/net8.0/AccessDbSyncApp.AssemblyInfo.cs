@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccessDbSyncApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce566a97d64b36098551c8a0e831789d7c8f98a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+972fc63f607ed65629ba8b5e0cd4df3e2a7bb8a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccessDbSyncApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccessDbSyncApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\controller\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:controller\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\converters\\dateonlyjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:converters\\dateonlyjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\services\\implementation\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:services\\implementation\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\controller\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:controller\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\controller\\medicalhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|c:\\users\\dell\\desktop\\nimaplearning\\hospital\\hospitalopd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BAB32C2A-1A69-485A-9A2E-1BAB72991026}|HospitalOPD.csproj|solutionrelative:hospitalopd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -42,8 +54,47 @@
       "DocumentGroups": [
         {
           "DockedHeight": 50,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DateOnlyJsonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Converters\\DateOnlyJsonConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\DateOnlyJsonConverter.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Converters\\DateOnlyJsonConverter.cs",
+              "RelativeToolTip": "Converters\\DateOnlyJsonConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:11:52.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:11:47.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Services\\Implementation\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Services\\Implementation\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\Implementation\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:11:34.633Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -54,20 +105,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Controller\\AppointmentController.cs",
               "RelativeDocumentMoniker": "Controller\\AppointmentController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Controller\\AppointmentController.cs",
               "RelativeToolTip": "Controller\\AppointmentController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAUwD4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwDYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T07:22:34.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T07:22:34.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MedicalHistoryController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Controller\\MedicalHistoryController.cs",
               "RelativeDocumentMoniker": "Controller\\MedicalHistoryController.cs",
@@ -75,12 +125,11 @@
               "RelativeToolTip": "Controller\\MedicalHistoryController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T07:02:26.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T07:02:26.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PatientController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Controller\\PatientController.cs",
               "RelativeDocumentMoniker": "Controller\\PatientController.cs",
@@ -92,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -104,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -116,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -129,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "HospitalOPD.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\HospitalOPD.csproj",
               "RelativeDocumentMoniker": "HospitalOPD.csproj",
@@ -141,15 +190,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Hospital\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T06:44:29.39Z"
+              "WhenOpened": "2025-05-29T06:44:29.39Z",
+              "EditorCaption": ""
             }
           ]
         }

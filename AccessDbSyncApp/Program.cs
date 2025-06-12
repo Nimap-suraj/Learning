@@ -305,7 +305,7 @@ namespace ContinuousAccessDbSync
             }
         }
         static List<int> GetAllIds(OleDbConnection conn, string tableName, string pkColumn)
-        {   
+        {
             var ids = new List<int>();
             string query = $"SELECT [{pkColumn}] FROM [{tableName}]";
 

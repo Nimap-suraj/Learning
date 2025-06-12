@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HospitalOPD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+546378dafaddfae781598afc42bc96c4ecf152db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+972fc63f607ed65629ba8b5e0cd4df3e2a7bb8a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("HospitalOPD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HospitalOPD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

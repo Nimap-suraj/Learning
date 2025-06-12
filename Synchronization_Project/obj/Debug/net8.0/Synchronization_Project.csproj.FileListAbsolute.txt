@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\bin\Debug\net8.0\Synchronization_Project.exe
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\bin\Debug\net8.0\Synchronization_Project.deps.json
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\bin\Debug\net8.0\Synchronization_Project.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\bin\Debug\net8.0\Synchronization_Project.dll
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\bin\Debug\net8.0\Synchronization_Project.pdb
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.dll
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\refint\Synchronization_Project.dll
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.pdb
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\Synchronization_Project.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\Synchronization_Project\obj\Debug\net8.0\ref\Synchronization_Project.dll
