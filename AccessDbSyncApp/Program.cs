@@ -18,7 +18,7 @@ namespace ContinuousAccessDbSync
         {
             string clientDbPath = @"C:\Users\DELL\Documents\MDB\suraj.mdb";
             string serverDbPath = @"\\192.168.1.93\mdbfile\rajat.mdb";
-            const string tableName = "People";
+            const string tableName = "Employee";
 
             if (!VerifyDatabaseFiles(clientDbPath, serverDbPath))
             {
@@ -117,29 +117,26 @@ namespace ContinuousAccessDbSync
         }
         static async Task ContinuousSync(string serverConnStr, string clientConnStr, string tableName)
         {
-            const string pkColumn = "ID";
-
             while (_syncRunning)
             {
                 try
                 {
-                    Console.WriteLine($"[{DateTime.Now:T}] Syncing Server → Client...");
                     using var serverConn = new OleDbConnection(serverConnStr);
                     using var clientConn = new OleDbConnection(clientConnStr);
                     serverConn.Open();
                     clientConn.Open();
 
-                    int serverToClientChanges = SyncDirection(serverConnStr, clientConnStr, tableName, ref _lastServerSyncTime);
+                    Console.WriteLine($"[{DateTime.Now:T}] Syncing Server → Client...");
+                    int serverToClientChanges = SyncDirection(serverConn, clientConn, tableName, ref _lastServerSyncTime);
                     Console.WriteLine($"[{DateTime.Now:T}] Server → Client: {serverToClientChanges} changes applied");
 
                     Console.WriteLine($"[{DateTime.Now:T}] Syncing Client → Server...");
-                    int clientToServerChanges = SyncDirection(clientConnStr, serverConnStr, tableName, ref _lastClientSyncTime);
+                    int clientToServerChanges = SyncDirection(clientConn, serverConn, tableName, ref _lastClientSyncTime);
                     Console.WriteLine($"[{DateTime.Now:T}] Client → Server: {clientToServerChanges} changes applied");
 
-                    // Handle deletions after insert/update
-                    SyncDeletions(serverConn, clientConn, tableName, pkColumn); // Server → Client deletions
-
-                    SyncDeletions(clientConn, serverConn, tableName, pkColumn); // Client → Server deletions
+                    // Sync deletions both ways
+                    SyncDeletions(serverConn, clientConn, tableName, ref _lastServerSyncTime);
+                    SyncDeletions(clientConn, serverConn, tableName, ref _lastClientSyncTime);
                 }
                 catch (Exception ex)
                 {
@@ -150,6 +147,81 @@ namespace ContinuousAccessDbSync
             }
         }
 
+        static void SyncDeletions(OleDbConnection sourceConn, OleDbConnection targetConn,
+            string tableName, ref DateTime lastSyncTime)
+        {
+            string query = $@"
+        SELECT ID, LastModified 
+        FROM [{tableName}] 
+        WHERE IsDeleted = True 
+        AND LastModified > ?";
+
+            using var cmd = new OleDbCommand(query, sourceConn);
+            cmd.Parameters.AddWithValue("@LastModified", lastSyncTime.ToString("MM/dd/yyyy hh:mm:ss tt"));
+
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                var id = reader.GetGuid(0);
+                var deleteTime = reader.GetDateTime(1);
+
+                // Mark as deleted in target if it exists
+                string updateQuery = $@"
+            UPDATE [{tableName}] 
+            SET IsDeleted = True, 
+                LastModified = ? 
+            WHERE ID = ? AND (IsDeleted = False OR LastModified < ?)";
+
+                using var updateCmd = new OleDbCommand(updateQuery, targetConn);
+                updateCmd.Parameters.AddWithValue("@LastModified", deleteTime);
+                updateCmd.Parameters.AddWithValue("@ID", id);
+                updateCmd.Parameters.AddWithValue("@LastModified2", deleteTime);
+
+                int rowsAffected = updateCmd.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    Console.WriteLine($"Marked ID {id} as deleted in target.");
+                    if (deleteTime > lastSyncTime)
+                        lastSyncTime = deleteTime;
+                }
+            }
+        }
+
+        static int SyncDirection(OleDbConnection sourceConn, OleDbConnection targetConn,
+            string tableName, ref DateTime lastSyncTime)
+        {
+            int changesApplied = 0;
+            DateTime maxTimestamp = lastSyncTime;
+
+            string getChangesQuery = $@"
+        SELECT * FROM [{tableName}] 
+        WHERE LastModified > ? AND IsDeleted = False
+        ORDER BY LastModified";
+
+            using var cmd = new OleDbCommand(getChangesQuery, sourceConn);
+            cmd.Parameters.AddWithValue("@LastModified", lastSyncTime.ToString("MM/dd/yyyy hh:mm:ss tt"));
+
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                var row = new Dictionary<string, object>();
+                for (int i = 0; i < reader.FieldCount; i++)
+                {
+                    row[reader.GetName(i)] = reader.IsDBNull(i) ? null : reader.GetValue(i);
+                }
+
+                if (ApplyChange(targetConn, tableName, row))
+                {
+                    changesApplied++;
+                    var rowTimestamp = Convert.ToDateTime(row["LastModified"]);
+                    if (rowTimestamp > maxTimestamp)
+                        maxTimestamp = rowTimestamp;
+                }
+            }
+
+            lastSyncTime = maxTimestamp;
+            return changesApplied;
+        }
         //static async Task ContinuousSync(string serverConnStr, string clientConnStr, string tableName)
         //{
         //    const string pkColumn = "ID";
