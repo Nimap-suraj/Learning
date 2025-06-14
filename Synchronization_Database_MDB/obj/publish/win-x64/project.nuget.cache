@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "NKK4N3j9bdw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\Synchronization_Database_MDB\\Synchronization_Database_MDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.6\\system.configuration.configurationmanager.9.0.6.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.data.oledb\\9.0.6\\system.data.oledb.9.0.6.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.6\\system.diagnostics.eventlog.9.0.6.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.6\\system.diagnostics.performancecounter.9.0.6.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.6\\system.security.cryptography.protecteddata.9.0.6.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.14\\microsoft.netcore.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x64.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

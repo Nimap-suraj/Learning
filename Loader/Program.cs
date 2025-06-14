@@ -460,7 +460,7 @@ namespace RobustAccessDbSync
         static async Task Main()
         {
            string clientDbPath = @"C:\Users\DELL\Documents\MDB\suraj.mdb";
-            string serverDbPath = @"\\192.168.1.93\mdbfile\rajat.mdb";
+            string serverDbPath = @"\\95.111.230.3\BatFolder\rajat.mdb";
             const string tableName = "Employee";
             const string pkColumn = "ID";
             string syncMetaFile = "sync_metadata.json";
