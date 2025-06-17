@@ -22,16 +22,16 @@ class Program
         string password = "N1m@p2025$Server";
 
         ShowGameStyleLoader("Checking connection with Localhost...", 5);
-        if (PingHost("192.168.137.1"))
-        {
-            Console.WriteLine("Maintaining connection with LocalMachine is successful.\n");
-        }
-        else
-        {
-            Console.WriteLine("ERROR: Localhost is not responding.");
-            Console.ReadKey();
-            return;
-        }
+        //if (PingHost("192.168.1.87"))
+        //{
+        //    Console.WriteLine("Maintaining connection with LocalMachine is successful.\n");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("ERROR: Localhost is not responding.");
+        //    Console.ReadKey();
+        //    return;
+        //}
         ShowGameStyleLoader("Checking connection with Server...", 20);
         if (PingHost(serverIp))
         {

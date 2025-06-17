@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\bin\Debug\net8.0\connection_remote.exe
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\bin\Debug\net8.0\connection_remote.deps.json
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\bin\Debug\net8.0\connection_remote.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\bin\Debug\net8.0\connection_remote.dll
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\bin\Debug\net8.0\connection_remote.pdb
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.dll
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\refint\connection_remote.dll
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.pdb
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\connection_remote.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\connection_remote\obj\Debug\net8.0\ref\connection_remote.dll
