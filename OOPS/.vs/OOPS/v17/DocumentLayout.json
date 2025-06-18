@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\electricalcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:electricalcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\learn\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:learn\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\learn\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:learn\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\learn\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:learn\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|c:\\users\\dell\\desktop\\nimaplearning\\oops\\learn\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{485EACB0-C81B-40C6-BBCF-1942002D2107}|OOPS.csproj|solutionrelative:learn\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 50,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA7wCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:50:00.819Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:34:12.728Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElectricalCar.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\ElectricalCar.cs",
+              "RelativeDocumentMoniker": "ElectricalCar.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\ElectricalCar.cs",
+              "RelativeToolTip": "ElectricalCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:20:39.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Car.cs",
+              "RelativeDocumentMoniker": "Car.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Car.cs",
+              "RelativeToolTip": "Car.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:07:47.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Base.cs",
+              "RelativeDocumentMoniker": "Learn\\Base.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Base.cs",
+              "RelativeToolTip": "Learn\\Base.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:58:32.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Shape.cs",
+              "RelativeDocumentMoniker": "Learn\\Shape.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Shape.cs",
+              "RelativeToolTip": "Learn\\Shape.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIBAwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:49:56.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Car.cs",
+              "RelativeDocumentMoniker": "Learn\\Car.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Car.cs",
+              "RelativeToolTip": "Learn\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:43:48.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Account.cs",
+              "RelativeDocumentMoniker": "Learn\\Account.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\OOPS\\Learn\\Account.cs",
+              "RelativeToolTip": "Learn\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:35:05.928Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

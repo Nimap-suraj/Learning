@@ -1,0 +1,6 @@
+@DevConnect_HostAddress = http://localhost:5152
+
+GET {{DevConnect_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
