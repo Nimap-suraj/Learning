@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6C5E2F6-75F0-4784-8968-6783B417CCB3}|CLIENT_TASK.csproj|c:\\users\\dell\\desktop\\nimaplearning\\client_task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C5E2F6-75F0-4784-8968-6783B417CCB3}|CLIENT_TASK.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C5E2F6-75F0-4784-8968-6783B417CCB3}|CLIENT_TASK.csproj|c:\\users\\dell\\desktop\\nimaplearning\\client_task\\client_task.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C6C5E2F6-75F0-4784-8968-6783B417CCB3}|CLIENT_TASK.csproj|solutionrelative:client_task.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C5E2F6-75F0-4784-8968-6783B417CCB3}|CLIENT_TASK.csproj|c:\\users\\dell\\desktop\\nimaplearning\\client_task\\client_task.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6C5E2F6-75F0-4784-8968-6783B417CCB3}|CLIENT_TASK.csproj|solutionrelative:client_task.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 50,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +38,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CLIENT_TASK",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CLIENT_TASK\\CLIENT_TASK.csproj",
+              "RelativeDocumentMoniker": "CLIENT_TASK.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CLIENT_TASK\\CLIENT_TASK.csproj",
+              "RelativeToolTip": "CLIENT_TASK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-20T13:44:39.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CLIENT_TASK",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CLIENT_TASK\\CLIENT_TASK.csproj",
+              "RelativeDocumentMoniker": "CLIENT_TASK.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CLIENT_TASK\\CLIENT_TASK.csproj",
+              "RelativeToolTip": "CLIENT_TASK.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-20T13:46:09.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CLIENT_TASK\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CLIENT_TASK\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANICAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAA1wKIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T10:00:56.813Z",
               "EditorCaption": ""

@@ -163,11 +163,11 @@ namespace RobustAccessDbSync
                 return;
             }
 
-            //string clientConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={clientDbPath};";
-            //string serverConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={serverDbPath};";
+            string clientConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={clientDbPath};";
+            string serverConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={serverDbPath};";
 
-            string clientConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={clientDbPath};";
-            string serverConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={serverDbPath};";
+            //string clientConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={clientDbPath};";
+            //string serverConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={serverDbPath};";
 
 
             ShowGameStyleLoader("Testing database connections", 20);
@@ -718,7 +718,7 @@ namespace RobustAccessDbSync
                     LastServerSyncTime = _lastServerSyncTime
                 });
 
-                await Task.Delay(1000); // Wait before next sync cycle
+                await Task.Delay(5000); // Wait before next sync cycle
             }
         }
         static bool TableHasColumn(OleDbConnection conn, string tableName, string columnName)
