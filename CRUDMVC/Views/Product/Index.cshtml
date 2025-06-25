@@ -1,58 +1,66 @@
 ﻿@model List<Product>
 @{
+    ViewData["Title"] = "Products List";
 }
 
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 
 <h2 class="text-center mb-5">List Of Products</h2>
 
 <div class="row mb-5">
-	<div class="col">
-		<a class="btn btn-primary" asp-controller="Product" asp-action="Create">New Product</a>
-	</div>
-	<div class="col">
-
-	</div>
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="Product" asp-action="Create">New Product</a>
+    </div>
 </div>
-<table>
 
-	<thead>
-		<tr>
-			<th>ID</th>
-			<th>Brand</th>
-			<th>Category</th>
-			<th>Price</th>
-			<th>Description</th>
-			<th>Image</th>
-			<th>CreatedAt</th>
-			<th>Actions</th>
-		</tr>
-	</thead>
-
-	<tbody>
-		@foreach(var product in Model)
-		{
-			<tr>
-				<td>@product.Id</td>
-				<td>@product.Name</td>
-				<td>@product.Brand</td>
-				<td>@(product.Price)$</td>
-				<td>@product.Description</td>
-				<td>
-					<img  class="rounded-2 m-5"	src="/products/@product.ImageFileName" width="100">
-				</td>
-				<td>@product.CreatedAt.ToString("MM/dd/yyyy")</td>
-				<td style="white-space:nowrap">
-					<a class="btn btn-primary btn-sm" asp-controller="Product" asp-action="Edit"
-					asp-route-id="@product.Id">
-					Edit
-					</a>
-					<a class="btn btn-danger btn-sm" asp-controller="Product" asp-action="Delete"
-					   asp-route-id="@product.Id"
-					   onclick="return confirm('Are You Sure?')">
-						Delete
-					</a>
-				</td>
-			</tr>
-		}
-	</tbody>
+<table id="productsTable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Brand</td>
+                <td>@(product.Price)$</td>
+                <td>@product.Description</td>
+                <td>
+                    <img class="rounded-2 m-5" src="/products/@product.ImageFileName" width="100">
+                </td>
+                <td>@product.CreatedAt.ToString("MM/dd/yyyy")</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Product" asp-action="Edit"
+                       asp-route-id="@product.Id">
+                        Edit
+                    </a>
+                    <a class="btn btn-danger btn-sm" asp-controller="Product" asp-action="Delete"
+                       asp-route-id="@product.Id"
+                       onclick="return confirm('Are You Sure?')">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#productsTable').DataTable();
+        });
+    </script>
+}

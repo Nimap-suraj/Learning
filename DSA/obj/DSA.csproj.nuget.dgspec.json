@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\NimapLearning\\DSA\\DSA.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\NimapLearning\\dsa\\dsa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\NimapLearning\\DSA\\DSA.csproj": {
+    "C:\\Users\\DELL\\Desktop\\NimapLearning\\dsa\\dsa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\NimapLearning\\DSA\\DSA.csproj",
-        "projectName": "DSA",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\DSA\\DSA.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\NimapLearning\\dsa\\dsa.csproj",
+        "projectName": "dsa",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\dsa\\dsa.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\DSA\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\NimapLearning\\dsa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FtktLK73eZHHqjgM5RyP2OnaK0cyo0lZ/sb8c+iPS58=",
+  "Hash": "UMox8xSMaP5RIgEaF4kvA1yIbCtMr0oLc22xWtIPXcU=",
   "Source": "CRUDMVC",
   "BasePath": "_content/CRUDMVC",
   "Mode": "Default",
@@ -1380,6 +1380,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\20250620144959844.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CRUDMVC\\wwwroot\\products\\20250620145153690.jpg",
+      "SourceId": "CRUDMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CRUDMVC\\wwwroot\\",
+      "BasePath": "_content/CRUDMVC",
+      "RelativePath": "products/20250620145153690#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gqt1z8urhm",
+      "Integrity": "OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20250620145153690.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CRUDMVC\\wwwroot\\products\\Blackberry.jpg",
@@ -6920,6 +6941,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7ZFYBMiAZkC76vXLc/NGnMJz42kWd8+pWfMY2PtbvwI="
+        }
+      ]
+    },
+    {
+      "Route": "products/20250620145153690.gqt1z8urhm.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CRUDMVC\\wwwroot\\products\\20250620145153690.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 09:21:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gqt1z8urhm"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20250620145153690.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU="
+        }
+      ]
+    },
+    {
+      "Route": "products/20250620145153690.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\NimapLearning\\CRUDMVC\\wwwroot\\products\\20250620145153690.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 09:21:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU="
         }
       ]
     },

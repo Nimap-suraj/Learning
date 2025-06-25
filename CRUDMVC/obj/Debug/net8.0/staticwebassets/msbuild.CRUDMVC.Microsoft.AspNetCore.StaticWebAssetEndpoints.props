@@ -768,6 +768,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7ZFYBMiAZkC76vXLc/NGnMJz42kWd8\u002BpWfMY2PtbvwI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3673875"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227ZFYBMiAZkC76vXLc/NGnMJz42kWd8\u002BpWfMY2PtbvwI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:19:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CRUDMVC/products/20250620145153690.gqt1z8urhm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250620145153690.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gqt1z8urhm"},{"Name":"integrity","Value":"sha256-OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU="},{"Name":"label","Value":"_content/CRUDMVC/products/20250620145153690.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"156229"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:21:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CRUDMVC/products/20250620145153690.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\20250620145153690.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"156229"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OPDaMggQfkLPLWlwCTFZzmyB9jfJ9FIt85mXNauwCnU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 09:21:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CRUDMVC/products/Blackberry.4r5l9ldph7.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\products\Blackberry.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

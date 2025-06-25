@@ -61,6 +61,7 @@ wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\products\20250620125907766.jpg
 wwwroot\products\20250620141742513.jpg
 wwwroot\products\20250620144959844.jpg
+wwwroot\products\20250620145153690.jpg
 wwwroot\products\Blackberry.jpg
 wwwroot\products\HPA1.jpg
 wwwroot\products\Hp-Mouse.jpg

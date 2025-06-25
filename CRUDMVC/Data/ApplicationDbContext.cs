@@ -12,3 +12,4 @@ namespace CRUDMVC.Data
         public DbSet<Product> Products { get; set; }
     }
 }
+

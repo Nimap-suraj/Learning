@@ -1,0 +1,29 @@
+﻿@page "/User"
+
+@model Authentication.Areas.Identity.Pages.UserModel
+@{
+}
+<h2 class="text-center">Welcome to User Account</h2>
+<div>
+	First Name: @Model.appUser?.FirstName
+</div>
+
+<div>
+	Last Name: @Model.appUser?.LastName
+</div>
+
+<div>
+	Email: @Model.appUser?.Email
+</div>
+
+<div>
+	Phone : @Model.appUser?.PhoneNumber
+</div>
+
+<div>
+	Address : @Model.appUser?.Address
+</div>
+
+<div>
+	Created At: @Model.appUser?.CreatedDate.ToString("MM/dd/yyyy")
+</div>

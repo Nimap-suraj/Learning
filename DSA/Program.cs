@@ -1,49 +1,27 @@
-﻿using DSA;
-using System;
-using System.Collections;
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
-        //   HelloWorld h = new HelloWorld();
-        //   h.TwoDimensionalArray();
-        // var obj=new HelloWorld();
-        //obj.TwoDimensionalArray();
-        // HelloWorld.JaggedArrays();
-        // HelloWorld.ImplicitTypedArray();
-        // HelloWorld.InlineArrays();
-        int[] num = { 10, 101, 122 };
-        num[0] = 1000;
-        // Console.WriteLine(num[0]);
-        foreach (var m in num)
+        int n = 5;
+        int cnt = 1;
+        List<int> arr = Enumerable.Repeat(0, n).ToList();
+        for (int i = 1; i <= n; i++)
         {
-            Console.Write(m + " ");
+          
+            
+                if (i % cnt == 0)
+                {
+                    for(int j = 1; j <= n; j++)
+                        {
+                        arr[j-1] = 1;
+                        }    
+                }
+                cnt++;
+            
         }
-        Console.WriteLine();
-        // ICollection collection = (ICollection)num;
-        // Console.WriteLine($"Length: {collection.Count}");
-
-        IList list = (IList)num;
-        // Console.WriteLine($"Contains: {list.Contains(10)}");
-        //   Console.WriteLine($"Index of an Element: {list.IndexOf(1000)}");
-        // try {
-        //     // list.Add(20); // Not allowed for arrays
-        //     list.Clear();   // This line throws NotSupportedException
-        // } catch (NotSupportedException e) {
-        //     Console.WriteLine("Exception: " + e.Message);
-        // }
-        try
+        foreach (var num in arr)
         {
-            list.Insert(2, 1000);   // This line throws NotSupportedException
+            Console.Write(num + " ");
         }
-        catch (NotSupportedException e)
-        {
-            Console.WriteLine("Exception: " + e.Message);
-        }
-        // ICollection collection1 = (ICollection)num;
-        // Console.WriteLine($"Length: {collection1.Count}");
-        // Remove , RemoveAt throws an Exception 
-
-        //HelloWorld.TwoDimensionalArray();
     }
 }
