@@ -1214,6 +1214,26 @@ namespace RobustAccessDbSync
             ShowGameStyleLoader("Loading synchronization metadata", 10);
             Console.WriteLine();
 
+            var allTables = GetAllTableNames(clientConnStr)
+            .Union(GetAllTableNames(serverConnStr))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+            foreach (var table in allTables)
+            {
+                int result = await CreateIndex(clientConnStr, table);
+                //if (result == 1)
+                //    Console.WriteLine($"Index created (or already exists) on '{table}' in client DB.");
+                //else
+                //    Console.WriteLine($"Failed to create index on '{table}' in client DB.");
+
+                result = await CreateIndex(serverConnStr, table);
+                //if (result == 1)
+                //    Console.WriteLine($"Index created (or already exists) on '{table}' in server DB.");
+                //else
+                //    Console.WriteLine($"Failed to create index on '{table}' in server DB.");
+            }
+
             metadata = LoadSyncMetadata(syncMetaFile) ?? new SyncMetadata();
             InitializeMetadata(metadata, clientConnStr, serverConnStr, isNewClientDb);
 
@@ -1253,6 +1273,38 @@ namespace RobustAccessDbSync
             } while (string.IsNullOrWhiteSpace(input));
 
             return input;
+        }
+        static async Task<int> CreateIndex(string sourceConnStr, string tableName)
+        {
+            try
+            {
+                using (var sourceConn = new OleDbConnection(sourceConnStr))
+                {
+                    await sourceConn.OpenAsync();
+
+                    // Try to create index on Serverzeit (ignore error if already exists)
+                    try
+                    {
+                        using (var indexCmd = new OleDbCommand(
+                            $"CREATE INDEX IX_Serverzeit ON [{tableName}] (Serverzeit)", sourceConn))
+                        {
+                            indexCmd.ExecuteNonQuery();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        // Ignore if index already exists
+                        //PrintError($"Error creating index on '{tableName}': {ex.Message}");
+                    }
+                }
+
+                return 1; // Success
+            }
+            catch (Exception ex)
+            {
+               // PrintError($"Unexpected error creating index for '{tableName}': {ex.Message}");
+                return 0; // Failure
+            }
         }
 
         static string ReadPassword()
@@ -1336,18 +1388,7 @@ namespace RobustAccessDbSync
                 // Execute creation
                 ExecuteNonQuery(targetConn, createTableSql.ToString());
                 Console.WriteLine($"Created table {tableName} in target database");
-
-                // Create corresponding tombstone table
-                string tombstoneTable = $"{tableName}_Deleted";
-                string createTombstone = $@"
-      CREATE TABLE [{tombstoneTable}] (
-          PK TEXT(255),
-          DeletedAt DATETIME,
-          Origin TEXT(10)
-      )";
-                ExecuteNonQuery(targetConn, createTombstone);
-            }
-            catch (Exception ex)
+            }catch (Exception ex)
             {
                 Console.WriteLine($"Error synchronizing table {tableName}: {ex.Message}");
             }
@@ -1616,102 +1657,103 @@ namespace RobustAccessDbSync
                         // Server → Client
                         SyncTableStructure(serverConnStr, clientConnStr, table);
                         _cycleTimer.Restart();
-                    PrintInfo($"Starting sync cycle at {DateTime.Now:T}");
+                        PrintInfo($"Starting sync cycle at {DateTime.Now:T}");
 
-                    _isOnline = CheckNetworkConnection(SERVER_IP);
+                        _isOnline = CheckNetworkConnection(SERVER_IP);
 
-                    if (_isOnline)
-                    {
-                        if (_lastOnlineTime == DateTime.MinValue)
+                        if (_isOnline)
                         {
-                            PrintSuccess("Connection restored");
-                        }
-                        _lastOnlineTime = DateTime.Now;
-
-                        if (metadata.QueuedChanges.Count > 0)
-                        {
-                            PrintInfo($"Processing {metadata.QueuedChanges.Count} queued changes");
-                            await ProcessQueuedChanges(metadata, clientConnStr, serverConnStr);
-                            SaveSyncMetadata(syncMetaFile, metadata);
-                        }
-
-                        int totalChanges = 0;
-                        foreach (var tableName in allTables)
-                        {
-                            try
-                            {   
-                                DateTime lastSync = metadata.TableLastSync.ContainsKey(tableName)
-                                    ? metadata.TableLastSync[tableName]
-                                    : DateTime.MinValue;
-
-                                PrintInfo($"Syncing {tableName} since {lastSync:yyyy-MM-dd HH:mm:ss}");
-
-                                int serverToClient = await SyncDirection(
-                                    sourceConnStr: serverConnStr,
-                                    targetConnStr: clientConnStr,
-                                    tableName: tableName,
-                                    lastSync: lastSync,
-                                    isServerToClient: true,
-                                    metadata: metadata
-                                );
-
-                                int clientToServer = await SyncDirection(
-                                    sourceConnStr: clientConnStr,
-                                    targetConnStr: serverConnStr,
-                                    tableName: tableName,
-                                    lastSync: lastSync,
-                                    isServerToClient: false,
-                                    metadata: metadata
-                                );
-
-                                if (serverToClient > 0 || clientToServer > 0)
-                                {
-                                    PrintSuccess($"{tableName} sync: Server→Client: {serverToClient}, Client→Server: {clientToServer}");
-                                    metadata.TableLastSync[tableName] = DateTime.UtcNow;
-                                    totalChanges += serverToClient + clientToServer;
-                                }
-                                else
-                                {
-                                    PrintInfo($"No changes for {tableName}");
-                                }
-                            }
-                            catch (Exception ex)
+                            if (_lastOnlineTime == DateTime.MinValue)
                             {
-                                PrintError($"Error syncing table {tableName}: {ex.Message}");
+                                PrintSuccess("Connection restored");
+                            }
+                            _lastOnlineTime = DateTime.Now;
+
+                            if (metadata.QueuedChanges.Count > 0)
+                            {
+                                PrintInfo($"Processing {metadata.QueuedChanges.Count} queued changes");
+                                await ProcessQueuedChanges(metadata, clientConnStr, serverConnStr);
+                                SaveSyncMetadata(syncMetaFile, metadata);
+                            }
+
+                            int totalChanges = 0;
+                            foreach (var tableName in allTables)
+                            {
+                                try
+                                {
+                                    DateTime lastSync = metadata.TableLastSync.ContainsKey(tableName)
+                                        ? metadata.TableLastSync[tableName]
+                                        : DateTime.MinValue;
+
+                                    PrintInfo($"Syncing {tableName} since {lastSync:yyyy-MM-dd HH:mm:ss}");
+
+                                    int serverToClient = await SyncDirection(
+                                        sourceConnStr: serverConnStr,
+                                        targetConnStr: clientConnStr,
+                                        tableName: tableName,
+                                        lastSync: lastSync,
+                                        isServerToClient: true,
+                                        metadata: metadata
+                                    );
+
+                                    int clientToServer = await SyncDirection(
+                                        sourceConnStr: clientConnStr,
+                                        targetConnStr: serverConnStr,
+                                        tableName: tableName,
+                                        lastSync: lastSync,
+                                        isServerToClient: false,
+                                        metadata: metadata
+                                    );
+
+                                    if (serverToClient > 0 || clientToServer > 0)
+                                    {
+                                        PrintSuccess($"{tableName} sync: Server→Client: {serverToClient}, Client→Server: {clientToServer}");
+                                        metadata.TableLastSync[tableName] = DateTime.UtcNow;
+                                        totalChanges += serverToClient + clientToServer;
+                                    }
+                                    else
+                                    {
+                                        PrintInfo($"No changes for {tableName}");
+                                    }
+                                }
+                                catch (Exception ex)
+                                {
+                                    PrintError($"Error syncing table {tableName}: {ex.Message}");
+                                }
+                            }
+
+                            _cycleTimer.Stop();
+                            PrintSuccess($"Sync cycle completed in {_cycleTimer.Elapsed.TotalSeconds:0.00} seconds. Total changes: {totalChanges}");
+
+                            if (totalChanges == 0)
+                            {
+                                PrintInfo("No changes detected in this cycle");
                             }
                         }
-
-                        _cycleTimer.Stop();
-                        PrintSuccess($"Sync cycle completed in {_cycleTimer.Elapsed.TotalSeconds:0.00} seconds. Total changes: {totalChanges}");
-
-                        if (totalChanges == 0)
+                        else
                         {
-                            PrintInfo("No changes detected in this cycle");
-                        }
-                    }
-                    else
-                    {
-                        if (_lastOnlineTime != DateTime.MinValue)
-                        {
-                            PrintWarning("Connection lost - entering offline mode");
-                            _lastOnlineTime = DateTime.MinValue;
+                            if (_lastOnlineTime != DateTime.MinValue)
+                            {
+                                PrintWarning("Connection lost - entering offline mode");
+                                _lastOnlineTime = DateTime.MinValue;
+                            }
+
+                            await QueueLocalChanges(metadata, clientConnStr);
                         }
 
-                        await QueueLocalChanges(metadata, clientConnStr);
+                        // Wait for next cycle with countdown
+                        _nextSyncTime = DateTime.Now.AddMinutes(_syncCycleWaitMinutes);
+                        PrintInfo($"Next sync at {_nextSyncTime:T}");
+
+                        while (DateTime.Now < _nextSyncTime && _syncRunning)
+                        {
+                            TimeSpan remaining = _nextSyncTime - DateTime.Now;
+                            Console.Write($"\rWaiting for next sync in {remaining.Minutes}:{remaining.Seconds:00}...");
+                            await Task.Delay(1000);
+                        }
+
+                        Console.WriteLine();
                     }
-
-                    // Wait for next cycle with countdown
-                    _nextSyncTime = DateTime.Now.AddMinutes(_syncCycleWaitMinutes);
-                    PrintInfo($"Next sync at {_nextSyncTime:T}");
-
-                    while (DateTime.Now < _nextSyncTime && _syncRunning)
-                    {
-                        TimeSpan remaining = _nextSyncTime - DateTime.Now;
-                        Console.Write($"\rWaiting for next sync in {remaining.Minutes}:{remaining.Seconds:00}...");
-                        await Task.Delay(1000);
-                    }
-
-                    Console.WriteLine();
                 }
 
                 catch (Exception ex)
@@ -1864,7 +1906,7 @@ namespace RobustAccessDbSync
                 }
             }
         }
-
+        //changes index
         static async Task<int> SyncDirection(
             string sourceConnStr,
             string targetConnStr,
@@ -1882,22 +1924,37 @@ namespace RobustAccessDbSync
                 {
                     sourceConn.Open();
 
-                    if (!TableExists(sourceConn, tableName)) return 0;
+                    if (!TableExists(sourceConn, tableName))
+                        return 0;
 
                     string pkColumn = GetPrimaryKeyColumn(sourceConnStr, tableName);
-                    if (string.IsNullOrEmpty(pkColumn)) return 0;  
+                    if (string.IsNullOrEmpty(pkColumn))
+                        return 0;
 
-                    //string query = $@"SELECT * FROM [{tableName}] 
-                    //                WHERE Serverzeit > @lastSync
-                    //                ORDER BY Serverzeit";
-                    // Modified query with DESC and optional TOP clause for better performance
-                            string query = $@"SELECT * FROM [{tableName}] 
-                                                WHERE Serverzeit > @lastSync
-                                                ORDER BY Serverzeit DESC";  // Newest first
+                    // Try to create index on Serverzeit (ignore error if already exists)
+                    try
+                    {
+                        using (var indexCmd = new OleDbCommand(
+                            $"CREATE INDEX IX_Serverzeit ON [{tableName}] (Serverzeit)", sourceConn))
+                        {
+                            indexCmd.ExecuteNonQuery();
+                        }
+                    }
+                    catch(Exception ex)
+                    {
+                        // Ignore if index already exists
+                        PrintError($"Error creating index {tableName}: {ex.Message}");
+                    }
+
+                    // Query rows modified after lastSync, newest first
+                    string query = $@"SELECT TOP 1 * FROM [{tableName}] 
+                              WHERE Serverzeit > @lastSync
+                              ORDER BY Serverzeit DESC";
 
                     using (var cmd = new OleDbCommand(query, sourceConn))
                     {
                         cmd.Parameters.AddWithValue("@lastSync", lastSync);
+
 
                         using (var reader = cmd.ExecuteReader())
                         {
@@ -1936,6 +1993,7 @@ namespace RobustAccessDbSync
                 PrintError($"Error syncing {tableName}: {ex.Message}");
             }
 
+            // Update sync metadata
             if (changesApplied > 0 && maxTimestamp > lastSync)
             {
                 metadata.TableLastSync[tableName] = maxTimestamp;
@@ -1943,6 +2001,89 @@ namespace RobustAccessDbSync
 
             return changesApplied;
         }
+
+
+        //        static async Task<int> SyncDirection(
+        //            string sourceConnStr,
+        //            string targetConnStr,
+        //            string tableName,
+        //            DateTime lastSync,
+        //            bool isServerToClient,
+        //            SyncMetadata metadata)
+        //        {
+        //            int changesApplied = 0;
+        //            DateTime maxTimestamp = lastSync;
+
+        //            try
+        //            {
+        //                using (var sourceConn = new OleDbConnection(sourceConnStr))
+        //                {
+        //                    sourceConn.Open();
+
+        //                    if (!TableExists(sourceConn, tableName)) return 0;
+
+        //                    string pkColumn = GetPrimaryKeyColumn(sourceConnStr, tableName);
+        //                    if (string.IsNullOrEmpty(pkColumn)) return 0;  
+
+        //                    //string query = $@"SELECT * FROM [{tableName}] 
+        //                    //                WHERE Serverzeit > @lastSync
+        //                    //                ORDER BY Serverzeit";
+        //                    // Modified query with DESC and optional TOP clause for better performance
+        //                            string query = $@"SELECT * FROM [{tableName}] 
+        //                                                WHERE Serverzeit > @lastSync
+        //                                                ORDER BY Serverzeit DESC";  // Newest first
+
+        //                    using (var cmd = new OleDbCommand(query, sourceConn))
+        //                    {
+        //                        "CREATE INDEX IX_Serverzeit ON [" + tableName + "] (Serverzeit)", sourceConn)){
+        //    {
+        //                            cmd.ExecuteNonQuery();
+        //                                cmd.Parameters.AddWithValue("@lastSync", lastSync);
+        //}
+        //                        using (var reader = cmd.ExecuteReader())
+        //                        {
+        //                            while (reader.Read())
+        //                            {
+        //                                var row = new Dictionary<string, object>();
+        //                                for (int i = 0; i < reader.FieldCount; i++)
+        //                                {
+        //                                    row[reader.GetName(i)] = reader.IsDBNull(i) ? null : reader.GetValue(i);
+        //                                }
+
+        //                                using (var targetConn = new OleDbConnection(targetConnStr))
+        //                                {
+        //                                    targetConn.Open();
+
+        //                                    if (ApplyChangeWithConflictResolution(
+        //                                        targetConn,
+        //                                        tableName,
+        //                                        row,
+        //                                        isServerToClient,
+        //                                        pkColumn))
+        //                                    {
+        //                                        changesApplied++;
+        //                                        var rowTimestamp = Convert.ToDateTime(row["Serverzeit"]);
+        //                                        if (rowTimestamp > maxTimestamp)
+        //                                            maxTimestamp = rowTimestamp;
+        //                                    }
+        //                                }
+        //                            }
+        //                        }
+        //                    }
+        //                }
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                PrintError($"Error syncing {tableName}: {ex.Message}");
+        //            }
+
+        //            if (changesApplied > 0 && maxTimestamp > lastSync)
+        //            {
+        //                metadata.TableLastSync[tableName] = maxTimestamp;
+        //            }
+
+        //            return changesApplied;
+        //        }
 
         static bool ApplyChangeWithConflictResolution(
             OleDbConnection targetConn,

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MdbSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6350cc148a1966893e2758c658dc6e3958ff764a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04f5a8a843edc403c38e6850163e3d720c15c0bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MdbSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MdbSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
