@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+013dddb6c5a4c99568610307d5222e731d22bc22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd28de264fbe10e835c25545ef4a4b83cc8b27db")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

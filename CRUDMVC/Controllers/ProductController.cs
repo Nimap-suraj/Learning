@@ -17,15 +17,18 @@ namespace CRUDMVC.Controllers
             this.environment = environment;
         }
         
+        // product ka list is showing......
         public IActionResult Index()
         {
             var products = context.Products.OrderByDescending(p=>p.Id).ToList();
             return View(products);
         }
+        // create page is showing.
         public IActionResult Create()
         {
             return View(); 
         }
+
         [HttpPost]
         public IActionResult Create(ProductDto dto)
         {
@@ -37,11 +40,13 @@ namespace CRUDMVC.Controllers
             }
             string newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
             newFileName += Path.GetExtension(dto.ImageFile!.FileName);
+
             string imageFullPath = environment.WebRootPath + "/products/" + newFileName;
             using(var stream = System.IO.File.Create(imageFullPath))
             {
                 dto.ImageFile.CopyTo(stream);   
             }
+
             var product = new Product()
             {
                 Name = dto.Name,
@@ -57,6 +62,9 @@ namespace CRUDMVC.Controllers
             TempData["Success"] = "Product created successfully!";
             return RedirectToAction("Index","Product");
         }
+
+
+
 
 
         public IActionResult Edit(int id)

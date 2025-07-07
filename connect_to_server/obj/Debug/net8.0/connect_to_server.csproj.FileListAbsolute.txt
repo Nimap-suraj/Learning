@@ -1,0 +1,5 @@
+C:\Users\DELL\Desktop\NimapLearning\connect_to_server\obj\Debug\net8.0\connect_to_server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\connect_to_server\obj\Debug\net8.0\connect_to_server.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\connect_to_server\obj\Debug\net8.0\connect_to_server.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\connect_to_server\obj\Debug\net8.0\connect_to_server.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\connect_to_server\obj\Debug\net8.0\connect_to_server.sourcelink.json

@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\bin\Debug\net8.0\ConnectionLogin.exe
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\bin\Debug\net8.0\ConnectionLogin.deps.json
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\bin\Debug\net8.0\ConnectionLogin.runtimeconfig.json
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\bin\Debug\net8.0\ConnectionLogin.dll
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\bin\Debug\net8.0\ConnectionLogin.pdb
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.AssemblyInfo.cs
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.sourcelink.json
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.dll
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\refint\ConnectionLogin.dll
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.pdb
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ConnectionLogin.genruntimeconfig.cache
+C:\Users\DELL\Desktop\NimapLearning\ConnectionLogin\obj\Debug\net8.0\ref\ConnectionLogin.dll

@@ -25,7 +25,7 @@ namespace RobustAccessDbSync
         static string SERVER_IP = "95.111.230.3";
         static string SHARE_NAME = "BatFolder";
         static string USERNAME = "administrator";
-        static string PASSWORD = "N1m@p2025$Server";
+        static string PASSWORD = "passwword";
 
         [System.Runtime.Versioning.SupportedOSPlatform("windows")]
         static async Task Main()
@@ -163,11 +163,11 @@ namespace RobustAccessDbSync
                 return;
             }
 
-            string clientConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={clientDbPath};";
-            string serverConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={serverDbPath};";
+            //string clientConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={clientDbPath};";
+            //string serverConnStr = $"Provider=Microsoft.ACE.OLEDB.16.0;Data Source={serverDbPath};";
 
-            //string clientConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={clientDbPath};";
-            //string serverConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={serverDbPath};";
+            string clientConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={clientDbPath};";
+            string serverConnStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={serverDbPath};";
 
 
             ShowGameStyleLoader("Testing database connections", 20);
@@ -354,6 +354,19 @@ namespace RobustAccessDbSync
                 // Get primary keys
                 DataTable schema = conn.GetOleDbSchemaTable(OleDbSchemaGuid.Primary_Keys,
                     new object[] { null, null, tableName });
+
+                if (schema != null && schema.Rows.Count > 0)
+                {
+                    // Sort by ORDINAL field to maintain key column order
+                    var primaryKeyColumns = schema.AsEnumerable()
+                        .OrderBy(row => row["ORDINAL"])
+                        .Select(row => row["COLUMN_NAME"].ToString())
+                        .FirstOrDefault();
+
+                    // If you only want the first PK column, return primaryKeyColumns[0]
+                    // Or return all as comma-separated string or list
+                    return primaryKeyColumns;
+                }
 
                 if (schema.Rows.Count > 0)
                 {
@@ -607,20 +620,7 @@ namespace RobustAccessDbSync
             var clientTables = GetAllTableNames(clientConnStr);
             var serverTables = GetAllTableNames(serverConnStr);
 
-            // Show tables to user
-            //Console.WriteLine("\nTables in Client Database:");
-            //foreach (var table in clientTables)
-            //{
-            //    int count = GetRecordCount(clientConnStr, table);
-            //    Console.WriteLine($"- {table} ({count} records)");
-            //}
-
-            //Console.WriteLine("\nTables in Server Database:");
-            //foreach (var table in serverTables)
-            //{
-            //    int count = GetRecordCount(serverConnStr, table);
-            //    Console.WriteLine($"- {table} ({count} records)");
-            //}
+         
 
             // Get all unique tables (union of both)
             var allTables = clientTables.Union(serverTables, StringComparer.OrdinalIgnoreCase).ToList();
@@ -665,7 +665,7 @@ namespace RobustAccessDbSync
                         // Get primary key for this table
                         string pkColumn = GetPrimaryKeyColumn(clientConnStr, tableName) ??
                                          GetPrimaryKeyColumn(serverConnStr, tableName) ??
-                                         "ID"; // fallback
+                                         "GUID"; // fallback
 
                         // First check if table has LastModified column
                         if (!TableHasColumn(serverConn, tableName, "Serverzeit"))
@@ -709,7 +709,7 @@ namespace RobustAccessDbSync
                     {
                         Console.WriteLine($"[{DateTime.Now:T}] Error syncing table {tableName}: {ex.Message}");
                     }
-                }
+                }   
 
                 // Save updated sync times
                 SaveSyncMetadata(syncMetaFile, new SyncMetadata
@@ -851,16 +851,24 @@ namespace RobustAccessDbSync
                 var incomingLastModified = Convert.ToDateTime(row["Serverzeit"]);
 
                 bool exists = RecordExists(targetConn, tableName, pkColumn, pkValue);
+                //Console.WriteLine("present or not yes/No",exists);
                 if (!exists)
                     return InsertRecord(targetConn, tableName, row);
 
                 var targetLastModified = GetLastModified(targetConn, tableName, pkColumn, pkValue);
+                //Console.WriteLine("targetLastModified"+ targetLastModified);
+
+                //Console.WriteLine(pkColumn);
+                //Console.WriteLine(pkValue);
+                //Console.WriteLine(tableName);
+                //Console.WriteLine(targetConn);
                 var targetRecord = GetRecord(targetConn, tableName, pkColumn, pkValue);
+                //Console.WriteLine("targetRecord" + targetRecord);
 
                 // Simple conflict resolution - server wins
                 if (isServerToClient)
                 {
-                    bool dataIsDifferent = !row["Name"].Equals(targetRecord["Name"]);
+                    bool dataIsDifferent = !row[$"{pkColumn}"].Equals(targetRecord[$"{pkColumn}"]);
                     if (dataIsDifferent)
                     {
                         Console.WriteLine($"Overwriting client data for ID {pkValue} with server version");
@@ -907,11 +915,12 @@ namespace RobustAccessDbSync
 
         static Dictionary<string, object> GetRecord(OleDbConnection conn, string tableName, string pkColumn, object pkValue)
         {
+            Console.WriteLine("getRecord method started");
             var record = new Dictionary<string, object>();
             try
             {
                 string query = $"SELECT * FROM [{tableName}] WHERE [{pkColumn}] = ?";
-
+                //Console.WriteLine(query);
                 using var cmd = new OleDbCommand(query, conn);
                 cmd.Parameters.AddWithValue($"@{pkColumn}", pkValue);
 
@@ -919,13 +928,21 @@ namespace RobustAccessDbSync
                 if (reader.Read())
                 {
                     for (int i = 0; i < reader.FieldCount; i++)
+                    {
+                        //Console.WriteLine(reader.FieldCount);
+                        //Console.WriteLine(reader.IsDBNull(i) ? null : reader.GetValue(i));
                         record[reader.GetName(i)] = reader.IsDBNull(i) ? null : reader.GetValue(i);
+                    }
                 }
             }
             catch
             {
                 // Return empty dictionary if error occurs
             }
+            //foreach (KeyValuePair<string, object> item in record)
+            //{
+            //    Console.WriteLine($"{item.Key}   {item.Value}");
+            //}
             return record;
         }
 
@@ -933,13 +950,21 @@ namespace RobustAccessDbSync
         {
             try
             {
+                Console.WriteLine("enter update record");
                 var columns = row.Keys.Where(k => k != pkColumn).ToList();
                 var updateSet = string.Join(", ", columns.Select(c => $"[{c}] = ?"));
                 string updateQuery = $@"UPDATE [{tableName}] SET {updateSet} WHERE [{pkColumn}] = ?";
 
                 using var cmd = new OleDbCommand(updateQuery, conn);
+                //foreach (var item in row)
+                //{
+                //    Console.WriteLine($"Key: {item.Key} Value: {item.Value}");
+                //}
                 foreach (var col in columns)
+                {
+                    //Console.WriteLine($"coumun: {col}");
                     cmd.Parameters.AddWithValue($"@{col}", row[col] ?? DBNull.Value);
+                }
                 cmd.Parameters.AddWithValue($"@{pkColumn}", row[pkColumn]);
 
                 return cmd.ExecuteNonQuery() > 0;
